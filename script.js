@@ -38,22 +38,70 @@ const mdModal = document.querySelector('.md-modal');
 const mdContent = document.querySelector('.md-content');
 const mdTitle = document.querySelector('.md-title');
 
-const escapeHtml = (str) => str.replace(/[&<>\"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[ch]));
+const escapeHtml = (str) => str.replace(/[&<>\"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','\\':'&#92;','"':'&quot;'}[ch]));
+
+const highlightCode = (source, lang) => {
+  let s = escapeHtml(source);
+  // Keep highlighting deliberately lightweight and safe: the source is escaped first.
+  if (/^(python|py|sage|javascript|js|typescript|ts|bash|sh|shell|c|cpp|rust|go|php|ruby|java)$/i.test(lang)) {
+    s = s.replace(/(#[^\n]*|\/\/[^\n]*)/g, '<span class="tok-comment">$1</span>');
+    s = s.replace(/(&quot;.*?&quot;|&#39;.*?&#39;|`.*?`)/g, '<span class="tok-string">$1</span>');
+    s = s.replace(/\b(def|class|return|if|else|elif|for|while|in|import|from|as|try|except|with|assert|lambda|True|False|None|function|const|let|var|new|public|private|static|fn|match|use|package)\b/g, '<span class="tok-keyword">$1</span>');
+    s = s.replace(/\b(ZZ|matrix|vector|IntegerLattice|map|range|print|len|int|str|bytes|open|sum)\b/g, '<span class="tok-function">$1</span>');
+    s = s.replace(/\b\d+(?:\.\d+)?\b/g, '<span class="tok-number">$&</span>');
+  }
+  return s;
+};
+
 const inlineMd = (str) => escapeHtml(str)
   .replace(/`([^`]+)`/g, '<code>$1</code>')
   .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
   .replace(/\*([^*]+)\*/g, '<em>$1</em>');
 
+function codeWindow(source, lang) {
+  const lines = source.split('\n');
+  const lineNumbers = lines.map((_, i) => `<span>${i + 1}</span>`).join('');
+  const highlighted = highlightCode(source, lang);
+  return `<div class="code-window" data-lang="${escapeHtml(lang || 'text')}">
+    <div class="code-window-bar"><span class="code-dot red"></span><span class="code-dot yellow"></span><span class="code-dot green"></span><span class="code-lang">${escapeHtml(lang || 'TEXT')}</span></div>
+    <div class="code-window-body"><div class="code-line-numbers">${lineNumbers}</div><pre><code>${highlighted}</code></pre></div>
+    <div class="code-window-scroll"><span></span></div>
+  </div>`;
+}
+
+function formulaBlock(source) {
+  const formula = escapeHtml(source.trim())
+    .replace(/\n+/g, '<br>')
+    .replace(/\b(mod|det)\b/g, '<span class="math-op">$1</span>');
+  return `<div class="formula-card"><div class="formula-label">EQUATION / CONSTRAINT</div><div class="formula-body">${formula}</div></div>`;
+}
+
 function markdownToHtml(md) {
   const lines = md.replace(/\r/g, '').split('\n');
   let html = '';
   let inCode = false, codeLang = '', code = [];
+  let inMath = false, math = [];
   let inList = false;
   const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
+  const closeMath = () => { if (inMath) { html += formulaBlock(math.join('\n')); inMath = false; math = []; } };
+
   for (const line of lines) {
+    if (line.trim() === '$$' || line.trim() === '\\[') {
+      if (!inMath) { closeList(); inMath = true; math = []; }
+      continue;
+    }
+    if (line.trim() === '\\]') { closeMath(); continue; }
+    if (inMath) { math.push(line); continue; }
+
     if (line.startsWith('```')) {
       if (!inCode) { closeList(); inCode = true; codeLang = line.slice(3).trim(); code = []; }
-      else { html += `<pre><code class=\"lang-${escapeHtml(codeLang)}\">${escapeHtml(code.join('\n'))}</code></pre>`; inCode = false; code = []; codeLang = ''; }
+      else {
+        // `text` blocks are treated as mathematical constraint blocks when they contain equation notation.
+        const raw = code.join('\n');
+        const isFormula = /^(text|formula|math)?$/i.test(codeLang) && /(?:≡|≤|≥|\bmod\b|\^\d|\|\||∑|∏|[A-Za-z]·[A-Za-z])/.test(raw);
+        html += isFormula ? formulaBlock(raw) : codeWindow(raw, codeLang || 'text');
+        inCode = false; code = []; codeLang = '';
+      }
       continue;
     }
     if (inCode) { code.push(line); continue; }
@@ -64,6 +112,7 @@ function markdownToHtml(md) {
     if (!line.trim()) { closeList(); continue; }
     closeList(); html += `<p>${inlineMd(line)}</p>`;
   }
+  closeMath();
   closeList();
   return html;
 }
