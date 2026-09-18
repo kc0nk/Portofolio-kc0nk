@@ -1,5 +1,18 @@
-# Writeups
+# CTF Writeups
 
-Struktur: `writeups/<event>/<kategori>/<judul-challenge>/writeup.md`.
+Semua write-up disimpan per challenge menggunakan struktur:
 
-Kategori dibuat mengikuti metadata challenge. Kategori yang tersedia dapat berbeda per event, misalnya `crypto`, `ai`, `misc`, `web`, `reverse`, `pwn`, `boot2root`, `development`, `forensics`, dan kategori lain bila diperlukan.
+```text
+writeups/<ctf>/<kategori>/<challenge>/writeup.md
+```
+
+PwnSec CTF 2026 saat ini berisi **21 challenge** berdasarkan arsip sumber yang tersedia:
+
+- PWN: 3
+- Reverse: 3
+- Crypto: 3
+- Web: 8
+- Forensic: 1
+- Misc: 3
+
+Semua narasi write-up PwnSecCTF ditulis dalam Bahasa Indonesia. Source teknis seperti kode, command, nama fungsi, algoritma, dan flag dipertahankan sesuai kebutuhan reproduksi.

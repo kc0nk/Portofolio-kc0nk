@@ -1,4 +1,4 @@
-# skill issue '@aelmo' — Crypto Writeup
+# skill issue '@aelmo'
 
 > **Kategori:** Crypto  
 > **Kesulitan:** Hard  

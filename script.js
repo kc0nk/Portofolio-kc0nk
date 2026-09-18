@@ -98,40 +98,187 @@ function markdownToHtml(md) {
   let html = '';
   let inCode = false, codeLang = '', code = [];
   let inMath = false, math = [];
-  let inList = false;
-  const closeList = () => { if (inList) { html += '</ul>'; inList = false; } };
-  const closeMath = () => { if (inMath) { html += formulaBlock(math.join('\n')); inMath = false; math = []; } };
+  let inList = false, listType = null;
+  let inQuote = false, quote = [];
 
-  for (const line of lines) {
-    if (line.trim() === '$$' || line.trim() === '\\[') {
-      if (!inMath) { closeList(); inMath = true; math = []; }
-      continue;
+  const closeList = () => {
+    if (!inList) return;
+    html += `</${listType === 'ol' ? 'ol' : 'ul'}>`;
+    inList = false;
+    listType = null;
+  };
+
+  const closeMath = () => {
+    if (!inMath) return;
+    html += formulaBlock(math.join('\n'));
+    inMath = false;
+    math = [];
+  };
+
+  const closeQuote = () => {
+    if (!inQuote) return;
+    const meaningful = quote.filter(line => line.trim() !== '');
+    if (meaningful.length) {
+      html += `<blockquote>${meaningful.map(line => `<p>${inlineMd(line)}</p>`).join('')}</blockquote>`;
     }
-    if (line.trim() === '\\]') { closeMath(); continue; }
-    if (inMath) { math.push(line); continue; }
+    inQuote = false;
+    quote = [];
+  };
 
-    if (line.startsWith('```')) {
-      if (!inCode) { closeList(); inCode = true; codeLang = line.slice(3).trim(); code = []; }
-      else {
-        // `text` blocks are treated as mathematical constraint blocks when they contain equation notation.
-        const raw = code.join('\n');
-        const isFlag = /pwnsec\{[^}]+\}/i.test(raw) && /^(text|flag|shell|bash)?$/i.test(codeLang);
-        const isFormula = /^(text|formula|math)?$/i.test(codeLang) && /(?:≡|≤|≥|\bmod\b|\^\d|\|\||∑|∏|[A-Za-z]·[A-Za-z])/.test(raw);
-        html += isFlag ? flagWindow(raw) : (isFormula ? formulaBlock(raw) : codeWindow(raw, codeLang || 'text'));
-        inCode = false; code = []; codeLang = '';
+  // Markdown table separator: |---|---|, | :--- | ---: |, etc.
+  const isTableSeparator = (line) => {
+    const cells = splitTableRow(line);
+    return cells.length >= 2 && cells.every(cell => /^:?-{3,}:?$/.test(cell));
+  };
+
+  const splitTableRow = (line) => {
+    let value = line.trim();
+    if (value.startsWith('|')) value = value.slice(1);
+    if (value.endsWith('|') && !value.endsWith('\\|')) value = value.slice(0, -1);
+    return value.split(/(?<!\\)\|/).map(cell => cell.replace(/\\\|/g, '|').trim());
+  };
+
+  const renderTable = (headerLine, separatorLine, rows) => {
+    const headers = splitTableRow(headerLine);
+    const separators = splitTableRow(separatorLine);
+    const aligns = headers.map((_, i) => {
+      const cell = separators[i] || '';
+      const left = cell.startsWith(':');
+      const right = cell.endsWith(':');
+      return left && right ? 'center' : right ? 'right' : left ? 'left' : '';
+    });
+    const head = headers.map((cell, i) =>
+      `<th${aligns[i] ? ` style="text-align:${aligns[i]}"` : ''}>${inlineMd(cell)}</th>`
+    ).join('');
+    const body = rows.map(row => {
+      const cells = splitTableRow(row);
+      return `<tr>${headers.map((_, i) =>
+        `<td${aligns[i] ? ` style="text-align:${aligns[i]}"` : ''}>${inlineMd(cells[i] || '')}</td>`
+      ).join('')}</tr>`;
+    }).join('');
+    return `<div class="md-table-wrap"><table><thead><tr>${head}</tr></thead><tbody>${body}</tbody></table></div>`;
+  };
+
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    const trimmed = line.trim();
+
+    // Fenced code blocks ALWAYS become the VS Code/macOS editor snapshot.
+    if (/^\s*```/.test(line)) {
+      if (!inCode) {
+        closeList();
+        closeQuote();
+        inCode = true;
+        codeLang = line.replace(/^\s*```/, '').trim() || 'text';
+        code = [];
+      } else {
+        html += codeWindow(code.join('\n'), codeLang);
+        inCode = false;
+        code = [];
+        codeLang = '';
       }
       continue;
     }
-    if (inCode) { code.push(line); continue; }
-    if (/^### /.test(line)) { closeList(); html += `<h4>${inlineMd(line.slice(4))}</h4>`; continue; }
-    if (/^## /.test(line)) { closeList(); html += `<h3>${inlineMd(line.slice(3))}</h3>`; continue; }
-    if (/^# /.test(line)) { closeList(); html += `<h2>${inlineMd(line.slice(2))}</h2>`; continue; }
-    if (/^- /.test(line)) { if (!inList) { html += '<ul>'; inList = true; } html += `<li>${inlineMd(line.slice(2))}</li>`; continue; }
-    if (!line.trim()) { closeList(); continue; }
-    closeList(); html += `<p>${inlineMd(line)}</p>`;
+    if (inCode) {
+      code.push(line);
+      continue;
+    }
+
+    // Display math blocks as editor-style math snapshots.
+    if (inMath) {
+      if (trimmed === '$$' || trimmed === '\\]') {
+        closeMath();
+      } else {
+        math.push(line);
+      }
+      continue;
+    }
+    if (trimmed === '$$' || trimmed === '\\[') {
+      closeList();
+      closeQuote();
+      inMath = true;
+      math = [];
+      continue;
+    }
+
+    // Horizontal rule.
+    if (/^\s*(?:---+|\*\*\*+|___+)\s*$/.test(line)) {
+      closeList();
+      closeQuote();
+      html += '<hr>';
+      continue;
+    }
+
+    // Table must be checked BEFORE normal paragraphs/lists.
+    if (line.includes('|') && i + 1 < lines.length && isTableSeparator(lines[i + 1])) {
+      closeList();
+      closeQuote();
+      const rows = [];
+      let j = i + 2;
+      while (j < lines.length && lines[j].includes('|') && lines[j].trim() !== '') {
+        rows.push(lines[j]);
+        j++;
+      }
+      html += renderTable(line, lines[i + 1], rows);
+      i = j - 1;
+      continue;
+    }
+
+    // Blockquote. Empty `>` lines are treated as spacing, not visible text.
+    if (/^\s*>/.test(line)) {
+      closeList();
+      if (!inQuote) {
+        inQuote = true;
+        quote = [];
+      }
+      quote.push(line.replace(/^\s*>\s?/, ''));
+      continue;
+    }
+    if (inQuote) closeQuote();
+
+    if (/^###\s+/.test(line)) {
+      closeList();
+      html += `<h4>${inlineMd(line.replace(/^###\s+/, ''))}</h4>`;
+      continue;
+    }
+    if (/^##\s+/.test(line)) {
+      closeList();
+      html += `<h3>${inlineMd(line.replace(/^##\s+/, ''))}</h3>`;
+      continue;
+    }
+    if (/^#\s+/.test(line)) {
+      closeList();
+      html += `<h2>${inlineMd(line.replace(/^#\s+/, ''))}</h2>`;
+      continue;
+    }
+
+    const unordered = line.match(/^\s*[-*+]\s+(.*)$/);
+    const ordered = line.match(/^\s*\d+[.)]\s+(.*)$/);
+    if (unordered || ordered) {
+      const wanted = ordered ? 'ol' : 'ul';
+      if (!inList || listType !== wanted) {
+        closeList();
+        html += `<${wanted}>`;
+        inList = true;
+        listType = wanted;
+      }
+      html += `<li>${inlineMd((ordered || unordered)[1])}</li>`;
+      continue;
+    }
+
+    if (!trimmed) {
+      closeList();
+      continue;
+    }
+
+    closeList();
+    html += `<p>${inlineMd(line)}</p>`;
   }
+
+  if (inCode) html += codeWindow(code.join('\n'), codeLang || 'text');
   closeMath();
   closeList();
+  closeQuote();
   return html;
 }
 
@@ -143,7 +290,8 @@ async function openMarkdown(url, title) {
   mdModal.setAttribute('aria-hidden', 'false');
   document.body.classList.add('modal-open');
   try {
-    const res = await fetch(url);
+    const resolvedUrl = new URL(url, document.baseURI).href;
+    const res = await fetch(resolvedUrl);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const text = await res.text();
     mdContent.innerHTML = markdownToHtml(text);

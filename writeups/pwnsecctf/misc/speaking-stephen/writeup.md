@@ -1,4 +1,4 @@
-# Speaking Stephen — Write-up Bahasa Indonesia
+# Speaking Stephen
 
 > **PwnSec CTF 2026 — Misc**
 >
