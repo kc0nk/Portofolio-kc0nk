@@ -70,10 +70,27 @@ function codeWindow(source, lang) {
 }
 
 function formulaBlock(source) {
-  const formula = escapeHtml(source.trim())
-    .replace(/\n+/g, '<br>')
-    .replace(/\b(mod|det)\b/g, '<span class="math-op">$1</span>');
-  return `<div class="formula-card"><div class="formula-label">EQUATION / CONSTRAINT</div><div class="formula-body">${formula}</div></div>`;
+  const safe = escapeHtml(source.trim());
+  const lines = source.trim().split('\n');
+  const nums = lines.map((_, i) => `<span>${i + 1}</span>`).join('');
+  const body = safe.replace(/\b(mod|det|gcd|rank|trace)\b/g, '<span class="tok-function">$1</span>')
+    .replace(/(≡|≤|≥|=|\+|-|\*|\/|\^|\||·|∈)/g, '<span class="tok-operator">$1</span>');
+  return `<div class="code-window formula-window" data-lang="MATH / CONSTRAINT">
+    <div class="code-window-bar"><span class="code-dot red"></span><span class="code-dot yellow"></span><span class="code-dot green"></span><span class="code-lang">MATH / CONSTRAINT</span></div>
+    <div class="code-window-body"><div class="code-line-numbers">${nums}</div><pre><code>${body}</code></pre></div>
+    <div class="code-window-scroll"><span></span></div>
+  </div>`;
+}
+
+function flagWindow(flag) {
+  const lines = flag.trim().split('\n');
+  const nums = lines.map((_, i) => `<span>${i + 1}</span>`).join('');
+  const body = escapeHtml(flag.trim()).replace(/(pwnsec\{[^}]+\})/gi, '<span class="tok-flag">$1</span>');
+  return `<div class="code-window flag-window" data-lang="FLAG">
+    <div class="code-window-bar"><span class="code-dot red"></span><span class="code-dot yellow"></span><span class="code-dot green"></span><span class="code-lang">FLAG</span></div>
+    <div class="code-window-body"><div class="code-line-numbers">${nums}</div><pre><code>${body}</code></pre></div>
+    <div class="code-window-scroll"><span></span></div>
+  </div>`;
 }
 
 function markdownToHtml(md) {
@@ -98,8 +115,9 @@ function markdownToHtml(md) {
       else {
         // `text` blocks are treated as mathematical constraint blocks when they contain equation notation.
         const raw = code.join('\n');
+        const isFlag = /pwnsec\{[^}]+\}/i.test(raw) && /^(text|flag|shell|bash)?$/i.test(codeLang);
         const isFormula = /^(text|formula|math)?$/i.test(codeLang) && /(?:≡|≤|≥|\bmod\b|\^\d|\|\||∑|∏|[A-Za-z]·[A-Za-z])/.test(raw);
-        html += isFormula ? formulaBlock(raw) : codeWindow(raw, codeLang || 'text');
+        html += isFlag ? flagWindow(raw) : (isFormula ? formulaBlock(raw) : codeWindow(raw, codeLang || 'text'));
         inCode = false; code = []; codeLang = '';
       }
       continue;
@@ -203,6 +221,24 @@ if (crosshair && window.matchMedia('(hover: hover) and (pointer: fine)').matches
   });
   crosshair.addEventListener('animationend', () => crosshair.classList.remove('shooting'));
 }
+
+// PwnSec CTF 2026 archive
+const pwnsecCard = document.querySelector('#pwnsecEventCard');
+const pwnsecModal = document.querySelector('#pwnsecModal');
+const pwnsecOpen = () => { pwnsecModal?.classList.add('open'); pwnsecModal?.setAttribute('aria-hidden','false'); document.body.classList.add('modal-open'); };
+const pwnsecClose = () => { pwnsecModal?.classList.remove('open'); pwnsecModal?.setAttribute('aria-hidden','true'); document.body.classList.remove('modal-open'); };
+pwnsecCard?.addEventListener('click', e => { if (!e.target.closest('a')) pwnsecOpen(); });
+pwnsecCard?.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); pwnsecOpen(); } });
+document.querySelectorAll('[data-close-pwnsec]').forEach(el => el.addEventListener('click', pwnsecClose));
+document.querySelectorAll('[data-pwnsec-cat]').forEach(btn => btn.addEventListener('click', () => {
+  const cat = btn.dataset.pwnsecCat;
+  document.querySelectorAll('[data-pwnsec-cat]').forEach(b => b.classList.toggle('active', b === btn));
+  document.querySelectorAll('.pwnsec-challenge').forEach(card => card.classList.toggle('hidden', cat !== 'all' && card.dataset.catItem !== cat));
+  const visible = [...document.querySelectorAll('.pwnsec-challenge')].filter(c => !c.classList.contains('hidden')).length;
+  const info = document.querySelector('#pwnsecInfo');
+  if (info) info.innerHTML = `<strong>${visible}</strong><span>challenge write-ups archived</span><p>Setiap challenge mempunyai folder dan file <code>writeup.md</code> sendiri.</p>`;
+}));
+document.querySelectorAll('.pwnsec-challenge .writeup-open').forEach(link => link.addEventListener('click', e => e.stopPropagation()));
 
 // Unified BrunnerCTF category archive
 const eventTabs = [...document.querySelectorAll('.event-tab')];
