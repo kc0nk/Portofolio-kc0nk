@@ -290,10 +290,25 @@ async function openMarkdown(url, title) {
   mdModal.setAttribute('aria-hidden', 'false');
   document.body.classList.add('modal-open');
   try {
-    const resolvedUrl = new URL(url, document.baseURI).href;
-    const res = await fetch(resolvedUrl);
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const text = await res.text();
+    const candidates = [url];
+    // Backward-compatible alias for older Brunner/PwnSec folders.
+    if (url.includes('/pwnsecctf/forensic/')) {
+      candidates.push(url.replace('/pwnsecctf/forensic/', '/pwnsecctf/forensics/'));
+    }
+    let text = null;
+    let lastError = null;
+    for (const candidate of candidates) {
+      try {
+        const resolvedUrl = new URL(candidate, document.baseURI).href;
+        const res = await fetch(resolvedUrl, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        text = await res.text();
+        break;
+      } catch (err) {
+        lastError = err;
+      }
+    }
+    if (text === null) throw lastError || new Error('Write-up tidak ditemukan');
     mdContent.innerHTML = markdownToHtml(text);
   } catch (err) {
     mdContent.innerHTML = `<p class=\"md-error\">Unable to load ${escapeHtml(url)}. Run the portfolio through a local web server (for example <code>python -m http.server 8080</code>).</p>`;
