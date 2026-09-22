@@ -436,3 +436,22 @@ document.querySelectorAll('.brunner-cat').forEach(btn => btn.addEventListener('c
   document.querySelectorAll('.brunner-challenge').forEach(card => card.classList.toggle('hidden', cat !== 'all' && card.dataset.catItem !== cat));
 }));
 document.addEventListener('keydown', e => { if (e.key === 'Escape') brunnerClose(); });
+
+
+// CyberLeague CTF 2026 archive
+const cyberleagueCard = document.querySelector('#cyberleagueEventCard');
+const cyberleagueModal = document.querySelector('#cyberleagueModal');
+const cyberleagueOpen = () => { cyberleagueModal?.classList.add('open'); cyberleagueModal?.setAttribute('aria-hidden','false'); document.body.classList.add('modal-open'); };
+const cyberleagueClose = () => { cyberleagueModal?.classList.remove('open'); cyberleagueModal?.setAttribute('aria-hidden','true'); document.body.classList.remove('modal-open'); };
+cyberleagueCard?.addEventListener('click', e => { if (!e.target.closest('a')) cyberleagueOpen(); });
+cyberleagueCard?.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cyberleagueOpen(); } });
+document.querySelectorAll('[data-close-cyberleague]').forEach(el => el.addEventListener('click', cyberleagueClose));
+document.querySelectorAll('[data-cyberleague-cat]').forEach(btn => btn.addEventListener('click', () => {
+  const cat = btn.dataset.cyberleagueCat;
+  document.querySelectorAll('[data-cyberleague-cat]').forEach(b => b.classList.toggle('active', b === btn));
+  document.querySelectorAll('.cyberleague-challenges .pwnsec-challenge').forEach(card => card.classList.toggle('hidden', cat !== 'all' && card.dataset.catItem !== cat));
+  const visible = [...document.querySelectorAll('.cyberleague-challenges .pwnsec-challenge')].filter(c => !c.classList.contains('hidden')).length;
+  const info = document.querySelector('#cyberleagueInfo');
+  if (info) info.innerHTML = `<strong>${visible}</strong><span>challenge write-ups archived</span><p>Setiap challenge mempunyai folder dan file <code>writeup.md</code> sendiri.</p>`;
+}));
+document.querySelectorAll('.cyberleague-challenges .writeup-open').forEach(link => link.addEventListener('click', e => e.stopPropagation()));

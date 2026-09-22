@@ -20,3 +20,8 @@ python -m http.server 8080
 Then open http://localhost:8080
 
 Update placeholder contact links in `index.html` before publishing.
+
+
+## CYBERLEAGUE CTF
+
+CYBERLEAGUE CTF ditambahkan ke arsip utama sebagai event tersendiri dengan 20 write-up yang dipisahkan berdasarkan tipe: PWN, Reverse, Web, Crypto, Forensic, dan Misc.

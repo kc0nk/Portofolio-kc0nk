@@ -133,6 +133,16 @@
           </div>
           <div class="brunner-card-cta">OPEN ARCHIVE <span>↗</span></div>
         </article>
+        <article class="brunner-event-card cyberleague-event-card reveal" id="cyberleagueEventCard" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="cyberleagueModal">
+          <div class="brunner-card-mark"><span>CYBER</span><strong>2026</strong></div>
+          <div class="brunner-card-copy">
+            <div class="event-kicker">CYBERLEAGUE CTF · WRITE-UP ARCHIVE</div>
+            <h3>CYBERLEAGUE CTF</h3>
+            <p>Arsip write-up CyberLeague CTF yang dipisahkan berdasarkan tipe challenge: PWN, Reverse, Web, Crypto, Forensic, dan Misc.</p>
+            <div class="brunner-card-meta"><span>20 WRITE-UPS</span><span>6 CATEGORIES</span><span>MARKDOWN</span><span>VS CODE SNAPSHOT</span></div>
+          </div>
+          <div class="brunner-card-cta">OPEN ARCHIVE <span>↗</span></div>
+        </article>
 
       </div>
     </section>
@@ -222,6 +232,51 @@
         </div>
       </div>
     </div>
+  <div class="brunner-modal" id="cyberleagueModal" aria-hidden="true">
+    <div class="brunner-modal-backdrop" data-close-cyberleague></div>
+    <div class="brunner-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="cyberleagueModalTitle">
+      <button class="brunner-close" type="button" data-close-cyberleague aria-label="Close">×</button>
+      <div class="brunner-modal-head">
+        <div><div class="event-kicker">CYBERLEAGUE CTF · WRITE-UP ARCHIVE</div><h3 id="cyberleagueModalTitle">CYBERLEAGUE CTF</h3><p>PILIH TIPE CHALLENGE</p></div>
+        <div class="brunner-modal-year">2026</div>
+      </div>
+      <div class="brunner-modal-cats">
+        <button class="brunner-cat active" data-cyberleague-cat="all">ALL <small>20</small></button>
+        <button class="brunner-cat" data-cyberleague-cat="pwn">PWN <small>4</small></button>
+        <button class="brunner-cat" data-cyberleague-cat="reverse">REVERSE <small>7</small></button>
+        <button class="brunner-cat" data-cyberleague-cat="web">WEB <small>2</small></button>
+        <button class="brunner-cat" data-cyberleague-cat="crypto">CRYPTO <small>4</small></button>
+        <button class="brunner-cat" data-cyberleague-cat="forensic">FORENSIC <small>2</small></button>
+        <button class="brunner-cat" data-cyberleague-cat="misc">MISC <small>1</small></button>
+      </div>
+      <div class="brunner-modal-body">
+        <div class="brunner-info" id="cyberleagueInfo"><strong>20</strong><span>challenge write-ups archived</span><p>Setiap challenge mempunyai folder dan file <code>writeup.md</code> sendiri.</p></div>
+        <div class="brunner-challenges cyberleague-challenges">
+          <article class="pwnsec-challenge" data-cat-item="pwn"><span class="badge pwn">PWN</span><h4>Abyssal Descent</h4><p>CYBERLEAGUE CTF — write-up pwn.</p><a href="writeups/cyberleague_ctf/pwn/abyssal-descent/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/pwn/abyssal-descent/writeup.md" data-title="Abyssal Descent">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="pwn"><span class="badge pwn">PWN</span><h4>Greenhouse Monitor</h4><p>CYBERLEAGUE CTF — write-up pwn.</p><a href="writeups/cyberleague_ctf/pwn/greenhouse-monitor/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/pwn/greenhouse-monitor/writeup.md" data-title="Greenhouse Monitor">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="pwn"><span class="badge pwn">PWN</span><h4>Synthesizer Rack</h4><p>CYBERLEAGUE CTF — write-up pwn.</p><a href="writeups/cyberleague_ctf/pwn/synthesizer-rack/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/pwn/synthesizer-rack/writeup.md" data-title="Synthesizer Rack">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="pwn"><span class="badge pwn">PWN</span><h4>Vinyl Scratch</h4><p>CYBERLEAGUE CTF — write-up pwn.</p><a href="writeups/cyberleague_ctf/pwn/vinyl-scratch/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/pwn/vinyl-scratch/writeup.md" data-title="Vinyl Scratch">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>Arcade ROM Dump</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/arcade-rom-dump/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/arcade-rom-dump/writeup.md" data-title="Arcade ROM Dump">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>Deep Cover</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/deep-cover/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/deep-cover/writeup.md" data-title="Deep Cover">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>Digital Vault</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/digital-vault/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/digital-vault/writeup.md" data-title="Digital Vault">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>License Validator</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/license-validator/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/license-validator/writeup.md" data-title="License Validator">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>Particle Accelerator</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/particle-accelerator/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/particle-accelerator/writeup.md" data-title="Particle Accelerator">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>Phantom Protocol</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/phantom-protocol/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/phantom-protocol/writeup.md" data-title="Phantom Protocol">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="reverse"><span class="badge reverse">REVERSE</span><h4>Something's Fishy</h4><p>CYBERLEAGUE CTF — write-up reverse.</p><a href="writeups/cyberleague_ctf/reverse/somethings-fishy/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/reverse/somethings-fishy/writeup.md" data-title="Something's Fishy">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="web"><span class="badge web">WEB</span><h4>Dead Drop</h4><p>CYBERLEAGUE CTF — write-up web.</p><a href="writeups/cyberleague_ctf/web/dead-drop/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/web/dead-drop/writeup.md" data-title="Dead Drop">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="web"><span class="badge web">WEB</span><h4>FormCraft</h4><p>CYBERLEAGUE CTF — write-up web.</p><a href="writeups/cyberleague_ctf/web/formcraft/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/web/formcraft/writeup.md" data-title="FormCraft">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="crypto"><span class="badge crypto">CRYPTO</span><h4>Crystal Grid</h4><p>CYBERLEAGUE CTF — write-up crypto.</p><a href="writeups/cyberleague_ctf/crypto/crystal-grid/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/crypto/crystal-grid/writeup.md" data-title="Crystal Grid">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="crypto"><span class="badge crypto">CRYPTO</span><h4>Embassy Cables</h4><p>CYBERLEAGUE CTF — write-up crypto.</p><a href="writeups/cyberleague_ctf/crypto/embassy-cables/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/crypto/embassy-cables/writeup.md" data-title="Embassy Cables">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="crypto"><span class="badge crypto">CRYPTO</span><h4>Trust Verify</h4><p>CYBERLEAGUE CTF — write-up crypto.</p><a href="writeups/cyberleague_ctf/crypto/trust-verify/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/crypto/trust-verify/writeup.md" data-title="Trust Verify">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="forensic"><span class="badge forensic">FORENSIC</span><h4>Tide Pool</h4><p>CYBERLEAGUE CTF — write-up forensic.</p><a href="writeups/cyberleague_ctf/forensic/tide-pool/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/forensic/tide-pool/writeup.md" data-title="Tide Pool">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="forensic"><span class="badge forensic">FORENSIC</span><h4>Undertow</h4><p>CYBERLEAGUE CTF — write-up forensic.</p><a href="writeups/cyberleague_ctf/forensic/undertow/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/forensic/undertow/writeup.md" data-title="Undertow">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="crypto"><span class="badge crypto">CRYPTO</span><h4>logic</h4><p>CYBERLEAGUE CTF — write-up crypto / logic.</p><a href="writeups/cyberleague_ctf/crypto/logic/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/crypto/logic/writeup.md" data-title="logic">OPEN WRITEUP ↗</a></article>
+          <article class="pwnsec-challenge" data-cat-item="misc"><span class="badge misc">MISC</span><h4>QueryPilot</h4><p>CYBERLEAGUE CTF — write-up misc.</p><a href="writeups/cyberleague_ctf/misc/querypilot/writeup.md" class="writeup-open" data-md="writeups/cyberleague_ctf/misc/querypilot/writeup.md" data-title="QueryPilot">OPEN WRITEUP ↗</a></article>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="md-modal" aria-hidden="true">
       <div class="md-backdrop" data-close-md></div>
       <div class="md-dialog" role="dialog" aria-modal="true" aria-label="CTF writeup viewer">
