@@ -10,7 +10,7 @@
 @media(max-width:720px){.cert-grid{grid-template-columns:1fr}.hero-frame{height:430px}.hero-photo{height:90%}.hero-badge{left:18px;top:18px}.hero-role{left:18px;bottom:18px}.cert-modal-dialog{margin-top:10vh}}
 
 
-.team-profile-link{display:inline-flex;align-items:center;gap:10px;margin-top:28px;padding:12px 16px;border:1px solid rgba(92,255,193,.28);color:var(--accent);text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.14em;transition:.25s ease}.team-profile-link:hover{border-color:var(--accent);background:rgba(92,255,193,.06);transform:translateY(-2px)}
+.team-profile-link{position:relative;z-index:5;pointer-events:auto;cursor:pointer;display:flex;width:max-content;margin:8px 0 0 calc(50% + 8px);align-items:center;gap:10px;padding:12px 16px;border:1px solid rgba(92,255,193,.28);color:var(--accent);text-decoration:none;font-family:var(--mono);font-size:11px;letter-spacing:.14em;transition:.25s ease}.team-profile-link:hover{border-color:var(--accent);background:rgba(92,255,193,.06);transform:translateY(-2px)}
 
 
 /* FPS-style crosshair mouse cursor */

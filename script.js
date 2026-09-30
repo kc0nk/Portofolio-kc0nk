@@ -385,6 +385,51 @@ if (crosshair && window.matchMedia('(hover: hover) and (pointer: fine)').matches
   crosshair.addEventListener('animationend', () => crosshair.classList.remove('shooting'));
 }
 
+// CTFtime stats
+const CTF_TIME_DATA_URL = 'ctftime.json';
+
+function ordinal(n) {
+  const value = Number(n);
+  const mod100 = value % 100;
+  if (mod100 >= 11 && mod100 <= 13) return `${value}th`;
+  switch (value % 10) {
+    case 1: return `${value}st`;
+    case 2: return `${value}nd`;
+    case 3: return `${value}rd`;
+    default: return `${value}th`;
+  }
+}
+
+function renderCTFtimeStats(stats) {
+  const teamRank = document.querySelector('#ctftimeTeamRank');
+  const teamLabel = document.querySelector('#ctftimeTeamRankLabel');
+  const rating = document.querySelector('#ctftimeRating');
+  const countryRank = document.querySelector('#ctftimeCountryRank');
+  const countryMeta = document.querySelector('#ctftimeCountryMeta');
+  if (!stats) return;
+  if (teamRank) teamRank.textContent = stats.worldRank;
+  if (teamLabel) teamLabel.textContent = `CTFtime ${stats.year} Team Rank`;
+  if (rating) rating.textContent = `${Number(stats.ratingPoints).toLocaleString('en-US')} rating points`;
+  if (countryRank) countryRank.textContent = ordinal(stats.countryRank);
+  if (countryMeta) countryMeta.textContent = `${stats.country} · ${stats.year}`;
+}
+
+fetch(CTF_TIME_DATA_URL, { cache: 'no-store' })
+  .then(response => {
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  })
+  .then(renderCTFtimeStats)
+  .catch(() => {
+    renderCTFtimeStats({
+      worldRank: 558,
+      countryRank: 15,
+      ratingPoints: 128213,
+      year: 2026,
+      country: 'Indonesia'
+    });
+  });
+
 // PwnSec CTF 2026 archive
 const pwnsecCard = document.querySelector('#pwnsecEventCard');
 const pwnsecModal = document.querySelector('#pwnsecModal');
