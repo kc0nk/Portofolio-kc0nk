@@ -386,7 +386,10 @@ if (crosshair && window.matchMedia('(hover: hover) and (pointer: fine)').matches
 }
 
 // CTFtime stats
-const CTF_TIME_DATA_URL = 'ctftime.json';
+// /api/ctftime is the live Cloudflare Pages Function.
+// ctftime.json remains as a fallback for static hosting.
+const CTF_TIME_DATA_URL = '/api/ctftime';
+const CTF_TIME_FALLBACK_URL = 'ctftime.json';
 
 function ordinal(n) {
   const value = Number(n);
@@ -420,11 +423,20 @@ fetch(CTF_TIME_DATA_URL, { cache: 'no-store' })
     return response.json();
   })
   .then(renderCTFtimeStats)
+  .catch(() => fetch(CTF_TIME_FALLBACK_URL, { cache: 'no-store' }))
+  .then(response => {
+    if (!response) return;
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return response.json();
+  })
+  .then(stats => {
+    if (stats) renderCTFtimeStats(stats);
+  })
   .catch(() => {
     renderCTFtimeStats({
-      worldRank: 558,
+      worldRank: 494,
       countryRank: 15,
-      ratingPoints: 128213,
+      ratingPoints: 143001,
       year: 2026,
       country: 'Indonesia'
     });
@@ -500,3 +512,4 @@ document.querySelectorAll('[data-cyberleague-cat]').forEach(btn => btn.addEventL
   if (info) info.innerHTML = `<strong>${visible}</strong><span>challenge write-ups archived</span><p>Setiap challenge mempunyai folder dan file <code>writeup.md</code> sendiri.</p>`;
 }));
 document.querySelectorAll('.cyberleague-challenges .writeup-open').forEach(link => link.addEventListener('click', e => e.stopPropagation()));
+\n\n// Community CTF write-up collection\n(async function initCommunityArchive(){\n  const card=document.querySelector('#communityEventCard');\n  const modal=document.querySelector('#communityModal');\n  const cats=document.querySelector('#communityCats');\n  const grid=document.querySelector('#communityChallenges');\n  const info=document.querySelector('#communityInfo');\n  if(!card || !modal || !cats || !grid) return;\n  let manifest=[];\n  try {\n    const res=await fetch('writeups/community-manifest.json',{cache:'no-store'});\n    if(!res.ok) throw new Error('manifest '+res.status);\n    manifest=await res.json();\n  } catch(err){\n    grid.innerHTML='<p class="md-error">Unable to load community write-up index.</p>';\n    return;\n  }\n  const labels={forensic:'FORENSICS',reverse:'REVERSE',crypto:'CRYPTO',web:'WEB',pwn:'PWN',misc:'MISC',osint:'OSINT',blockchain:'BLOCKCHAIN',mobile:'MOBILE',steganography:'STEGANOGRAPHY',boot2root:'BOOT2ROOT',development:'DEVELOPMENT'};\n  const categories=['all',...new Set(manifest.map(x=>x.category))];\n  cats.innerHTML=categories.map(c=>`<button class="brunner-cat ${c==='all'?'active':''}" data-community-cat="${escapeHtml(c)}">${c==='all'?'ALL':(labels[c]||c.toUpperCase())}</button>`).join('');\n  function render(filter='all'){\n    const rows=filter==='all'?manifest:manifest.filter(x=>x.category===filter);\n    grid.innerHTML=rows.map(x=>`<article class="pwnsec-challenge community-challenge" data-cat-item="${escapeHtml(x.category)}"><span class="badge ${escapeHtml(x.category)}">${escapeHtml(labels[x.category]||x.category.toUpperCase())}</span><h4>${escapeHtml(x.title)}</h4><p><strong>${escapeHtml(x.event)}</strong><br>${escapeHtml(x.description)}</p><a href="${escapeHtml(x.path)}" class="writeup-open" data-md="${escapeHtml(x.path)}" data-title="${escapeHtml(x.title)}">OPEN WRITEUP ↗</a></article>`).join('');\n    if(info) info.innerHTML=`<strong>${rows.length}</strong><span>challenge write-ups archived</span><p>${filter==='all'?'Semua event dan kategori.':`Filter kategori: <code>${escapeHtml(labels[filter]||filter)}</code>`}</p>`;\n    grid.querySelectorAll('.writeup-open').forEach(link=>link.addEventListener('click',e=>e.stopPropagation()));\n  }\n  render();\n  cats.addEventListener('click',e=>{const b=e.target.closest('[data-community-cat]');if(!b)return;cats.querySelectorAll('.brunner-cat').forEach(x=>x.classList.toggle('active',x===b));render(b.dataset.communityCat);});\n  const open=()=>{modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');};\n  const close=()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');};\n  card.addEventListener('click',e=>{if(!e.target.closest('a'))open();});\n  card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});\n  document.querySelectorAll('[data-close-community]').forEach(x=>x.addEventListener('click',close));\n})();\n

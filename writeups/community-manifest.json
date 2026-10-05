@@ -1,0 +1,1298 @@
+[
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "blockchain",
+    "title": "Canopy Cache — Anti-Slop CTF 2026 (Blockchain, 490 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/blockchain/canopy-cache/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Blockchain (Bridge Protocol, bukan EVM)\" challenge: \"Canopy Cache\" flag: \"slopped{packbitslookuproutesrethreadtheownerlane}\" t..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "blockchain",
+    "title": "Finality Cache — Anti-Slop CTF 2026 (Blockchain, 447 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/blockchain/finality-cache/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Blockchain (Bridge Protocol, bukan EVM)\" challenge: \"Finality Cache\" flag: \"slopped{wrappedlaneoffsetsexposesealkeysthensignre..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "crypto",
+    "title": "Polynomial Drift — Anti-Slop CTF 2026 (Crypto, 443 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/crypto/polynomial-drift/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Cryptography\" challenge: \"Polynomial Drift\" flag: \"slopped{polyphasemasksforceahiddennumberpivot}\" teknik: \"Kebocoran 24 bit r..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "crypto",
+    "title": "Sealed Signal — Anti-Slop CTF 2026 (Crypto, 459 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/crypto/sealed-signal/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Cryptography\" challenge: \"Sealed Signal\" flag: \"slopped{cbcmaccapsulesplicelastclaimwins}\" teknik: \"Chosen-message CBC-MAC ora..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "misc",
+    "title": "Baby Maths — Anti-Slop CTF 2026 (Misc, 284 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/misc/baby-maths/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Misc\" challenge: \"Baby Maths\" flag: \"slopped{http://178.105.199.41:23333}\" teknik: \"Otomasi aritmetika 100-soal via TCP socket..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "osint",
+    "title": "Geoguessr — Anti-Slop CTF 2026 (OSINT, 487 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/osint/geoguessr/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"OSINT\" challenge: \"Geoguessr\" flag: \"slopped{h0wd0agent5sl0pnmpz?}\" teknik: \"Client-side crypto mengubah tebakan lokasi jadi H..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "osint",
+    "title": "Observers Are All You Need — Anti-Slop CTF 2026 (OSINT, 443 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/osint/observers-are-all-you-need/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"OSINT\" challenge: \"Observers Are All You Need\" flag: \"slopped{OPHisarec0nstructi0npr0gramf0rfunD4mentaLphys1cs}\" teknik: \"Pivo..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "pwn",
+    "title": "Anchorpoint — Anti-Slop CTF 2026 (Pwn, 448 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/pwn/anchorpoint/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Pwn (Binary Exploitation)\" challenge: \"Anchorpoint\" flag: \"slopped{shadowquoteghashrootcapsule}\" teknik: \"Rantai 5-tahap: over..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "pwn",
+    "title": "Graceful Exit — Anti-Slop CTF 2026 (Pwn)",
+    "path": "writeups/community/anti-slop-ctf-2026/pwn/graceful-exit/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Pwn (Binary Exploitation)\" challenge: \"Graceful Exit\" flag: \"slopped{previewedoffsetscanresealreports}\" teknik: \"Back-referenc..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "pwn",
+    "title": "Paper Lantern — Anti-Slop CTF 2026 (Pwn)",
+    "path": "writeups/community/anti-slop-ctf-2026/pwn/paper-lantern/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Pwn (Binary Exploitation)\" challenge: \"Paper Lantern\" flag: \"slopped{faultedcrtseamsburnopen}\" teknik: \"Bellcore fault attack ..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "reverse",
+    "title": "Audit Spiral — Anti-Slop CTF 2026 (Reverse Engineering, 500 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/reverse/audit-spiral/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Audit Spiral\" flag: \"slopped{quadraticcapsulesunlocktheattestor}\" teknik: \"Nonce ECDSA berben..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "reverse",
+    "title": "Parallax Cartridge — Anti-Slop CTF 2026 (Reverse Engineering, 355 poin)",
+    "path": "writeups/community/anti-slop-ctf-2026/reverse/parallax-cartridge/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Parallax Cartridge\" flag: \"slopped{quiettrackshideinhashpaddedresumetapes}\" teknik: \"Byte rec..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "web",
+    "title": "Slipstream Cache — Anti-Slop CTF 2026 (Web Exploitation)",
+    "path": "writeups/community/anti-slop-ctf-2026/web/slipstream-cache/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Web Exploitation\" challenge: \"Slipstream Cache\" flag: \"slopped{splitparsersmakesignedpackagesliable}\" teknik: \"Differential pa..."
+  },
+  {
+    "event": "Anti-Slop CTF 2026",
+    "eventSlug": "anti-slop-ctf-2026",
+    "category": "web",
+    "title": "SloppedRider — Anti-Slop CTF 2026 (Web Exploitation)",
+    "path": "writeups/community/anti-slop-ctf-2026/web/sloppedrider/writeup.md",
+    "description": "--- ctf: \"Anti-Slop CTF 2026\" kategori: \"Web Exploitation\" challenge: \"SloppedRider\" flag: \"slopped{riding0nM3?}\" teknik: \"SSRF ke ops server loopback yang body-nya di..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Hackel — ASIS CTF Quals 2026 (Crypto, Baby)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/hackel/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Hackel\" flag: \"ASIS{sEm1d!r3c7gr0uPpr3S3nt4T10nk3yr3C0verY4TtacK!!}\" teknik: \"Kata ciphertext dicetak seb..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Headache — ASIS CTF Quals 2026 (Crypto, Medium)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/headache/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Headache\" flag: \"ASIS{c0uPleDn0nL1n3ArDynam!c5R3c0vEryv1Ap0l3s&l34stsqu4r3s!!}\" teknik: \"PRF softmax-atte..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Less is More — ASIS CTF Quals 2026 (Crypto, Hard)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/less-is-more/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Less is More\" flag: \"ASIS{iZ1tEr4t10n5k1pm4ke5n01nn0c3nTr3sPonse!!!?}\" teknik: \"Bug iteration-skip 72% me..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Linchan — ASIS CTF Quals 2026 (Crypto, Hard)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/linchan/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Linchan\" flag: \"ASIS{Mr.L1nChaNh3aViErGFq2ma7ch!nG9aUntl3t!!?}\" teknik: \"Matriks rank-25 ditanam di setia..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Mario — ASIS CTF Quals 2026 (Crypto, Medium)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/mario/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Mario\" flag: \"ASIS{MARY0grOe8n3r8aSi5chA1L3n9eMas7eR3dr3A1Ly?!!!}\" teknik: \"64 report UOV semua di-mask v..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Pancake Stack — ASIS CTF Quals 2026 (Crypto, Medium)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/pancake-stack/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Pancake Stack\" flag: \"ASIS{paNc4kEv3Lo5t!t5n4mE8Utn0TiTs89uG!}\" teknik: \"Seed 32-bit AES-256 key + hint S..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "crypto",
+    "title": "Sultan — ASIS CTF Quals 2026 (Crypto, Medium-Hard)",
+    "path": "writeups/community/asis-ctf-quals-2026/crypto/sultan/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Crypto\" challenge: \"Sultan\" flag: \"ASIS{cORrup7qu0ruMrEu5e!nl4sTASISCTF!!}\" teknik: \"Module-LWE dengan hint floor(inner(A,u)/..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "misc",
+    "title": "Mic Check — ASIS CTF Quals 2026 (Misc, Baby)",
+    "path": "writeups/community/asis-ctf-quals-2026/misc/mic-check/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Misc\" challenge: \"Mic Check\" flag: \"ASIS{f4r3w3llcl4ss1ch3ll0unc3rt41n3r4!}\" teknik: \"Decoder font seven-segment ASCII custom..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "reverse",
+    "title": "ASIS Arch — ASIS CTF Quals 2026 (Reverse Engineering, Medium)",
+    "path": "writeups/community/asis-ctf-quals-2026/reverse/asis-arch/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Reverse Engineering\" challenge: \"ASIS Arch\" flag: \"ASIS{M1ddL33nd14nN1bbL35M4k3Q3MUD122y!}\" teknik: \"VM 16-bit custom; ISA di..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "reverse",
+    "title": "LeakMeAk — ASIS CTF Quals 2026 (Reverse Engineering, Medium)",
+    "path": "writeups/community/asis-ctf-quals-2026/reverse/leakmeak/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Reverse Engineering\" challenge: \"LeakMeAk\" flag: \"ASIS{haaducrcplmekhylrozcxyxzuizs}\" teknik: \"Hash non-injective H=word0x9e3..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "web",
+    "title": "2048 — ASIS CTF Quals 2026 (Web, Hard)",
+    "path": "writeups/community/asis-ctf-quals-2026/web/2048/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Web\" challenge: \"2048\" flag: \"ASIS{t0McATwasTh3KEY}\" teknik: \"Diagnostics JSP X-Forwarded-For spoof → Tomcat 9.0.116 CVE-2026..."
+  },
+  {
+    "event": "ASIS CTF Quals 2026",
+    "eventSlug": "asis-ctf-quals-2026",
+    "category": "web",
+    "title": "Another Baby Web! — ASIS CTF Quals 2026 (Web, Baby)",
+    "path": "writeups/community/asis-ctf-quals-2026/web/another-baby-web/writeup.md",
+    "description": "--- ctf: \"ASIS CTF Quals 2026\" kategori: \"Web\" challenge: \"Another Baby Web!\" flag: \"ASIS{Babyw3bcha!!3nGe$$$}\" teknik: \"Path filter one-pass replace('../','') dilewat..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "pwn",
+    "title": "Muktir Shongket — BDSec CTF 2026 (Pwn, 100 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/pwn/muktir-shongket/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Pwn (Binary Exploitation)\" challenge: \"Muktir Shongket\" flag: \"BDSEC{mukt1r5h0ngk3tr34ch3dth3f13ld}\" teknik: \"Verifier tidak menel..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "pwn",
+    "title": "Phantom Device — BDSec CTF 2026 (Pwn, 100 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/pwn/phantom-device/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Pwn (Binary Exploitation)\" challenge: \"Phantom Device\" flag: \"BDSEC{ph4nt0mh4ndl35n3v3rd13}\" teknik: \"Duplicate-handle tidak incre..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "reverse",
+    "title": "Borrowed Memory — BDSec CTF 2026 (Reverse Engineering, 460 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/reverse/borrowed-memory/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Borrowed Memory\" flag: \"BDSEC{p01nt3rsl13bUt0ffs3tsr3m3mb3r}\" teknik: \"Tabel memori xorshift 0x80..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "reverse",
+    "title": "Easy RE Challenge — BDSec CTF 2026 (Reverse Engineering, 80 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/reverse/easy-re-challenge/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Easy RE Challenge\" flag: \"BDSEC{e4SYr3v3rS3eNg1N33r1nGcH4LL4ng3}\" teknik: \"ELF x86-64 unstripped ..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "reverse",
+    "title": "Night Shift — BDSec CTF 2026 (Reverse Engineering, 100 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/reverse/night-shift/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Night Shift\" flag: \"BDSEC{0rd3rh1d3sb3tw33nth3l1n3s}\" teknik: \"5 worker pthread didispatch oleh 8..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "web",
+    "title": "Admin Portal — BDSec CTF 2026 (Web, 50 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/web/admin-portal/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Web\" challenge: \"Admin Portal\" flag: \"bdsec{n0ne4lgm34nsn0s1gn4tur3}\" teknik: \"Server membaca algoritma JWT dari header client-con..."
+  },
+  {
+    "event": "BDSec CTF 2026",
+    "eventSlug": "bdsec-ctf-2026",
+    "category": "web",
+    "title": "Ticketly — BDSec CTF 2026 (Web, 425 poin)",
+    "path": "writeups/community/bdsec-ctf-2026/web/ticketly/writeup.md",
+    "description": "--- ctf: \"BDSec CTF 2026\" kategori: \"Web\" challenge: \"Ticketly\" flag: \"bdsec{w4fbyp4ss3d4dm1nc00k13l00t3d}\" teknik: \"WAF blacklist (script/iframe/img/javascript:/onloa..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "crypto",
+    "title": "Eepy — BhAcKAri CTF 2026 (Crypto)",
+    "path": "writeups/community/bhackari-ctf-2026/crypto/eepy/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Crypto\" challenge: \"Eepy\" flag: \"bhackariCTF{w0wy0uc4nr34llysm1th}\" teknik: \"RSA-2048 membocorkan 600 bit teratas prima p; 424 ..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "misc",
+    "title": "Cake (Minecraft datapack) — BhAcKAri CTF 2026 (Misc)",
+    "path": "writeups/community/bhackari-ctf-2026/misc/cake/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Misc\" challenge: \"Cake (Minecraft datapack)\" flag: \"bhackariCTF{c4nih4v34sl1c3}\" teknik: \"Vigenère aditif 63-simbol dikunci emp..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "misc",
+    "title": "Horses — BhAcKAri CTF 2026 (Misc)",
+    "path": "writeups/community/bhackari-ctf-2026/misc/horses/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Misc\" challenge: \"Horses\" flag: \"bhackariCTF{C0rr1C4vall0o0!1!1!1}\" teknik: \"Sandbox d8 ter-patch masih mengekspos eval secara ..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "misc",
+    "title": "Last Bacaro Standing — BhAcKAri CTF 2026 (Misc)",
+    "path": "writeups/community/bhackari-ctf-2026/misc/last-bacaro-standing/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Misc\" challenge: \"Last Bacaro Standing\" flag: \"bhackariCTF{m4k3b4cAr1gr3at4ga1n}\" teknik: \"Stego LSB berkunci-seed dengan uruta..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "reverse",
+    "title": "Don't Unpack Me — BhAcKAri CTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/bhackari-ctf-2026/reverse/dont-unpack-me/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Don't Unpack Me\" flag: \"bhackariCTF{7zip1saw3s0m3}\" teknik: \"PE 5.632-byte hand-crafted; manua..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "reverse",
+    "title": "Mystery (Python C-extension) — BhAcKAri CTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/bhackari-ctf-2026/reverse/mystery/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Mystery (Python C-extension)\" flag: \"bhackariCTF{F1n4llyth4My$t3rY!S$OlvEd!!!}\" teknik: \"C-ext..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "web",
+    "title": "BhAcKAri Streaming Service — BhAcKAri CTF 2026 (Web)",
+    "path": "writeups/community/bhackari-ctf-2026/web/bhackari-streaming-service/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Web\" challenge: \"BhAcKAri Streaming Service\" flag: \"bhackariCTF{c0m30nn0wwh0do35nth4t3r3d1r3ct5?}\" teknik: \"JS ter-obfuskasi RO..."
+  },
+  {
+    "event": "BhAcKAri CTF 2026",
+    "eventSlug": "bhackari-ctf-2026",
+    "category": "web",
+    "title": "Proxyproxy (nothing here pt. 2) — BhAcKAri CTF 2026 (Web)",
+    "path": "writeups/community/bhackari-ctf-2026/web/proxyproxy/writeup.md",
+    "description": "--- ctf: \"BhAcKAri CTF 2026\" kategori: \"Web\" challenge: \"Proxyproxy (nothing here pt. 2)\" flag: \"bhackariCTF{ed7b8baf6bd6341f194a95394c1acd314cee7871de0eb67c}\" teknik:..."
+  },
+  {
+    "event": "BKISC CTF 2026",
+    "eventSlug": "bkisc-ctf-2026",
+    "category": "crypto",
+    "title": "Cryptografie — BKISC CTF 2026 (Crypto)",
+    "path": "writeups/community/bkisc-ctf-2026/crypto/cryptografie/writeup.md",
+    "description": "--- ctf: \"BKISC CTF 2026\" kategori: \"Crypto\" challenge: \"Cryptografie\" flag: \"plfanzen{w3LlD0N3,0RSh0Uld1R4Th3RS4YV2VsbCBkb29uZQ==}\" teknik: \"Membalik encoding Java Al..."
+  },
+  {
+    "event": "BKISC CTF 2026",
+    "eventSlug": "bkisc-ctf-2026",
+    "category": "mobile",
+    "title": "Boring APK — BKISC CTF 2026 (Mobile / Android Reverse)",
+    "path": "writeups/community/bkisc-ctf-2026/mobile/boring-apk/writeup.md",
+    "description": "--- ctf: \"BKISC CTF 2026\" kategori: \"Mobile (Android Reverse)\" challenge: \"Boring APK\" flag: \"BKISC{4nd0ridm4z3s0lving}\" teknik: \"Dekripsi asset AES-GCM dari binary ND..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "forensic",
+    "title": "slack — boroCTF 2026 (Forensics)",
+    "path": "writeups/community/boroctf-2026/forensic/slack/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Forensics\" challenge: \"slack\" flag: \"boroCTF{C0u!Dyo8cuTm3Som4sL@ck}\" teknik: \"Image ext4 10 MB berisi 500 file kecil; data penting ..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "reverse",
+    "title": "AlphaCode — boroCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/boroctf-2026/reverse/alphacode/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"AlphaCode\" flag: \"boroCTF{r3versebyguessncheck}\" teknik: \"DSL kustom dengan enam opcode; aturan par..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "reverse",
+    "title": "bigbrother — boroCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/boroctf-2026/reverse/big-brother/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"bigbrother\" flag: \"boroCTF{AHK1slIs+eni4g}\" teknik: \"PE hasil kompilasi AutoHotkey; script tertanam..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "reverse",
+    "title": "financialreport — boroCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/boroctf-2026/reverse/financial-report/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"financialreport\" flag: \"boroCTF{0n1F!leI5@11ittAke$}\" teknik: \"PDF 1 KB dengan object stream berisi..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "reverse",
+    "title": "labyrinth — boroCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/boroctf-2026/reverse/labyrinth/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"labyrinth\" flag: \"boroCTF{es4@pewA51nev!table}\" teknik: \"Maze acak yang fungsi hope()-nya menjalank..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "reverse",
+    "title": "passwordprotected — boroCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/boroctf-2026/reverse/password-protected/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"passwordprotected\" flag: \"boroCTF{IH8M@7ingStR1ng5cHals}\" teknik: \"movabsq password tersusun + loop..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "web",
+    "title": "boro-senpai 1 — boroCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/boroctf-2026/web/boro-senpai-1/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Web Exploitation\" challenge: \"boro-senpai 1\" flag: \"boroCTF{3lpsYc0ngR00!}\" teknik: \"IDOR di /profile/<username; OSINT kanon mengide..."
+  },
+  {
+    "event": "boroCTF-2026",
+    "eventSlug": "boroctf-2026",
+    "category": "web",
+    "title": "Kobeni's Dashboard — boroCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/boroctf-2026/web/kobenis-dashboard/writeup.md",
+    "description": "--- ctf: \"boroCTF 2026\" kategori: \"Web Exploitation\" challenge: \"Kobeni's Dashboard\" flag: \"boroCTF{I'v3n3v3rbeenT0sch00l3ithEr}\" teknik: \"ImageMagick 6 dengan policy...."
+  },
+  {
+    "event": "BreakTheSyntax CTF 2026",
+    "eventSlug": "breakthesyntax-ctf-2026",
+    "category": "forensic",
+    "title": "FCP — BreakTheSyntax CTF 2026 (Forensics: Memory + Network)",
+    "path": "writeups/community/breakthesyntax-ctf-2026/forensic/fcp/writeup.md",
+    "description": "--- ctf: \"BreakTheSyntax CTF 2026 (BtSCTF)\" kategori: \"Forensics (Memory + Network)\" challenge: \"FCP\" flag: \"BtSCTF{morelikemidcp67}\" teknik: \"Dump memory server Go de..."
+  },
+  {
+    "event": "BreakTheSyntax CTF 2026",
+    "eventSlug": "breakthesyntax-ctf-2026",
+    "category": "web",
+    "title": "Pokecollector — BreakTheSyntax CTF 2026 (Web Exploitation)",
+    "path": "writeups/community/breakthesyntax-ctf-2026/web/pokecollector/writeup.md",
+    "description": "--- ctf: \"BreakTheSyntax CTF 2026 (BtSCTF)\" kategori: \"Web Exploitation\" challenge: \"Pokecollector\" flag: \"BtSCTF{g1tg0tt4c4tch3m4ll}\" teknik: \"IDOR lewat JWT yang men..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "crypto",
+    "title": "Hurtful — BYUCTF 2026 (Crypto)",
+    "path": "writeups/community/byuctf-2026/crypto/hurtful/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Crypto\" challenge: \"Hurtful\" flag: \"byuctf{cuzst3r30typ3shurt92de04}\" teknik: \"RSA e=3 dengan prefix known 122-byte → pemulihan small..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "crypto",
+    "title": "Power Tower — BYUCTF 2026 (Crypto)",
+    "path": "writeups/community/byuctf-2026/crypto/power-tower/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Crypto\" challenge: \"Power Tower\" flag: \"byuctf{eulersphiphunctionisaphunphunction}\" teknik: \"Multi-prime RSA (25 × 16-bit) dengan exp..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "crypto",
+    "title": "RSA Dreams — BYUCTF 2026 (Crypto)",
+    "path": "writeups/community/byuctf-2026/crypto/rsa-dreams/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Crypto\" challenge: \"RSA Dreams\" flag: \"byuctf{greatjobrecoveringtheflag}\" teknik: \"hint = p + q memberikan φ(n) = n − hint + 1 lewat ..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "crypto",
+    "title": "sus-box — BYUCTF 2026 (Crypto)",
+    "path": "writeups/community/byuctf-2026/crypto/sus-box/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Crypto\" challenge: \"sus-box\" flag: \"byuctf{ifyouusedallmyouremissingoutlearningareallycoolattack!}\" teknik: \"Cipher 1-round XOR-Sbox-..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "forensic",
+    "title": "Alright. Paradox Time — BYUCTF 2026 (Forensics)",
+    "path": "writeups/community/byuctf-2026/forensic/alright-paradox-time/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Forensics\" challenge: \"Alright. Paradox Time\" flag: \"byuctf{S0MyP4r4d0x!d34D!dntW0rk}\" teknik: \"Detik-dari-baseline pada timestamp NT..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "forensic",
+    "title": "Are You Still There? — BYUCTF 2026 (Forensics)",
+    "path": "writeups/community/byuctf-2026/forensic/are-you-still-there/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Forensics\" challenge: \"Are You Still There?\" flag: \"byuctf{Turr3tR3d3mpt!0nL!n3s4r3N0tR!d3s}\" teknik: \"Payload ICMP echo membawa 4 by..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "forensic",
+    "title": "Corrupted Cores — BYUCTF 2026 (Forensics)",
+    "path": "writeups/community/byuctf-2026/forensic/corrupted-cores/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Forensics\" challenge: \"Corrupted Cores\" flag: \"byuctf{Th3P4rtWh3r3H3K!llsY0u}\" teknik: \"Source IP yang di-spoof adalah ASCII printabl..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "forensic",
+    "title": "There Will Be Cake — BYUCTF 2026 (Forensics)",
+    "path": "writeups/community/byuctf-2026/forensic/there-will-be-cake/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Forensics\" challenge: \"There Will Be Cake\" flag: \"byuctf{Th3C4k3!s4L!3HTC56zeE}\" teknik: \"Header HTTP Cookie: cake=<base64 → decode b..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "reverse",
+    "title": "Angr Management — BYUCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/byuctf-2026/reverse/angr-management/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Angr Management\" flag: \"byuctf{g3tw1thth3c0ntr01fl0w}\" teknik: \"Directed graph 625-node; BFS dari 0 ..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "reverse",
+    "title": "Pickle Rick — BYUCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/byuctf-2026/reverse/pickle-rick/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Pickle Rick\" flag: \"byuctf{1mp1ckl3r1111ck!}\" teknik: \"Token rick/pickle → bit → byte di-XOR 0x67 → ..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "reverse",
+    "title": "RCaaS — BYUCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/byuctf-2026/reverse/rcaas/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"RCaaS\" flag: \"byuctf{s3rv1c3sc4nb3r3v3rs33ng1n33r3dt00}\" teknik: \"Servis SUID Go; 30 persamaan multi..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "reverse",
+    "title": "Yet Another Recursive Algorithm — BYUCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/byuctf-2026/reverse/yet-another-recursive-algorithm/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Yet Another Recursive Algorithm\" flag: \"byuctf{whydo3syarast4ndf0rth4t???}\" teknik: \"Constraint cond..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "web",
+    "title": "baby — BYUCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/byuctf-2026/web/baby/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Web Exploitation\" challenge: \"baby\" flag: \"byuctf{s331t53asy!}\" teknik: \"Stored XSS — field message dirender mentah; bot admin headle..."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "web",
+    "title": "kittiessss — BYUCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/byuctf-2026/web/kittiessss/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Web Exploitation\" challenge: \"kittiessss\" flag: \"byuctf{y0um4d3k1ttyh4ppy}\" teknik: \"Prototype pollution Python lewat class → todict...."
+  },
+  {
+    "event": "BYUCTF 2026",
+    "eventSlug": "byuctf-2026",
+    "category": "web",
+    "title": "onpoint — BYUCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/byuctf-2026/web/onpoint/writeup.md",
+    "description": "--- ctf: \"BYUCTF 2026\" kategori: \"Web Exploitation\" challenge: \"onpoint\" flag: \"byuctf{Iw4ssur3th1s0new4ab3tt3r...}\" teknik: \"onfocus tidak ada di blocklist + template..."
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "boot2root",
+    "title": "Blackdamp solution",
+    "path": "writeups/community/community-ctf-archive/boot2root/blackdamp/writeup.md",
+    "description": "Recovered and HMAC-verified flags:"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "boot2root",
+    "title": "Deadlight",
+    "path": "writeups/community/community-ctf-archive/boot2root/deadlight/writeup.md",
+    "description": "User: Null0rigin{thelamptoldyoubygoingout}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "boot2root",
+    "title": "Smoke solution",
+    "path": "writeups/community/community-ctf-archive/boot2root/smoke/writeup.md",
+    "description": "- User: Null0rigin{thewordlistwasthetargetallalong} - Root: Null0rigin{twofiguresoffapayrollsheet}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "boot2root",
+    "title": "Stillwater",
+    "path": "writeups/community/community-ctf-archive/boot2root/stillwater/writeup.md",
+    "description": "User: Null0rigin{yourodethecycleinsteadofreadingit}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "crypto",
+    "title": "Bindery",
+    "path": "writeups/community/community-ctf-archive/crypto/bindery/writeup.md",
+    "description": "Null0rigin{youcountedinabaseshenevernamed}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Carrier",
+    "path": "writeups/community/community-ctf-archive/forensic/carrier/writeup.md",
+    "description": "Null0rigin{theextentsoutlivedthename}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Greylist",
+    "path": "writeups/community/community-ctf-archive/forensic/greylist/writeup.md",
+    "description": "Null0rigin{thesecondbufferneverran}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Night Shift — Forensics Writeup",
+    "path": "writeups/community/community-ctf-archive/forensic/nightshift-writeup/writeup.md",
+    "description": "The night shift writes the same records, and nobody reads them as closely. Two nights are in here."
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Null0rigin CTF 2026 — Forensics Chain 14: Slackwater",
+    "path": "writeups/community/community-ctf-archive/forensic/14-slackwater/writeup.md",
+    "description": "Name: Slackwater Category: Forensics Difficulty: Easy"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Null0rigin CTF 2026 — Forensics Chain 15: Handoff",
+    "path": "writeups/community/community-ctf-archive/forensic/15-handoff/writeup.md",
+    "description": "Name: Handoff Category: Network / Forensics Difficulty: Easy"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Nullwatch",
+    "path": "writeups/community/community-ctf-archive/forensic/nullwatch/writeup.md",
+    "description": "Null0rigin{thecapturetimestampswerestretched}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "forensic",
+    "title": "Revenant",
+    "path": "writeups/community/community-ctf-archive/forensic/revenant/writeup.md",
+    "description": "Null0rigin{thecloneneverreseededtherng}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "misc",
+    "title": "Null0rigin CTF 2026 — CTFception Writeup",
+    "path": "writeups/community/community-ctf-archive/misc/ctfception/writeup.md",
+    "description": "Name: CTFception Category: Forensics / Crypto / OSINT / Misc Target: https://ctfception.onrender.com/"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "misc",
+    "title": "Null0rigin CTF 2026 — Ludo: The Forbidden Six",
+    "path": "writeups/community/community-ctf-archive/misc/forbidden-six/writeup.md",
+    "description": "Name: Ludo — The Forbidden Six Category: Web / Business Logic Target: https://ludo-the-forbidden-six.onrender.com/"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "misc",
+    "title": "Sanity -2",
+    "path": "writeups/community/community-ctf-archive/misc/sanity-2/writeup.md",
+    "description": "Category: Misc / Sanity Points: 100"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "misc",
+    "title": "Shadow Gate",
+    "path": "writeups/community/community-ctf-archive/misc/shadow-gate/writeup.md",
+    "description": "Null0rigin{sh4d0wg4t3br34ch3dn1c30v3rfl0w}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "reverse-engineering",
+    "title": "Cinder",
+    "path": "writeups/community/community-ctf-archive/reverse-engineering/cinder/writeup.md",
+    "description": "Null0rigin{yousteppedwhereitwouldnotread}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "reverse-engineering",
+    "title": "Deadman",
+    "path": "writeups/community/community-ctf-archive/reverse-engineering/deadman/writeup.md",
+    "description": "Null0rigin{youhelditexactlyright}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "reverse-engineering",
+    "title": "Dovetail",
+    "path": "writeups/community/community-ctf-archive/reverse-engineering/dovetail/writeup.md",
+    "description": "Null0rigin{theloaderneverreadthelabel}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "reverse-engineering",
+    "title": "Palimpsest",
+    "path": "writeups/community/community-ctf-archive/reverse-engineering/palimpsest/writeup.md",
+    "description": "Null0rigin{thetablewroteitselfatdawn}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "reverse-engineering",
+    "title": "Quicklime",
+    "path": "writeups/community/community-ctf-archive/reverse-engineering/quicklime/writeup.md",
+    "description": "Null0rigin{youkeptthelastelevenbits}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Driftwood",
+    "path": "writeups/community/community-ctf-archive/steganography/driftwood/writeup.md",
+    "description": "Null0rigin{whatthenegativekeptfromtheprint}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Moire",
+    "path": "writeups/community/community-ctf-archive/steganography/moire/writeup.md",
+    "description": "Null0rigin{acarrierlaidacrossthewholeroom}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Mordant",
+    "path": "writeups/community/community-ctf-archive/steganography/mordant/writeup.md",
+    "description": "Null0rigin{hesettwosortswhereonewoulddo}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Pentimento",
+    "path": "writeups/community/community-ctf-archive/steganography/pentimento/writeup.md",
+    "description": "Null0rigin{keepthegrainandburnthechaff}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Quietus",
+    "path": "writeups/community/community-ctf-archive/steganography/quietus/writeup.md",
+    "description": "Null0rigin{thechannelclosesfromtheinside}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Safelight",
+    "path": "writeups/community/community-ctf-archive/steganography/safelight/writeup.md",
+    "description": "Null0rigin{twocellsofequalweightarenotequal}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Undertone",
+    "path": "writeups/community/community-ctf-archive/steganography/undertone/writeup.md",
+    "description": "Null0rigin{theorderofthecoloursisthemessage}"
+  },
+  {
+    "event": "Community CTF Archive",
+    "eventSlug": "community-ctf-archive",
+    "category": "steganography",
+    "title": "Winnow",
+    "path": "writeups/community/community-ctf-archive/steganography/winnow/writeup.md",
+    "description": "Null0rigin{nothingtakesuntilitisfixed}"
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "android",
+    "title": "Baby Android — DalCTF 2026 (Android)",
+    "path": "writeups/community/dalctf-2026/android/baby-android/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Mobile (Android)\" challenge: \"Baby Android\" flag: \"dalctf{4ndr0idd3bugg1ng1se4sy}\" teknik: \"Flag tertanam statis dalam 3 potongan di ..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "crypto",
+    "title": "All's Fair in Love and CTFs — DalCTF 2026 (Crypto)",
+    "path": "writeups/community/dalctf-2026/crypto/alls-fair-in-love-and-ctfs/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Crypto\" challenge: \"All's Fair in Love and CTFs\" flag: \"dalctf{ANYTHINGFORTHEFLAG}\" teknik: \"Playfair dengan kotak alfabet POLOS (tan..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "crypto",
+    "title": "Angry Shamir — DalCTF 2026 (Crypto)",
+    "path": "writeups/community/dalctf-2026/crypto/angry-shamir/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Crypto\" challenge: \"Angry Shamir\" flag: \"dalctf{sm4llf4ct0rs4r3d4ng3r0us1nrs4}\" teknik: \"Modulus RSA 2054-bit dengan faktor prima kec..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "crypto",
+    "title": "Compression isn't encryption — DalCTF 2026 (Crypto)",
+    "path": "writeups/community/dalctf-2026/crypto/compression-isnt-encryption/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Crypto\" challenge: \"Compression isn't encryption\" flag: \"dalctf{y0uwi113ncrypt4lw4y$}\" teknik: \"Huffman coding yang menyamar jadi cip..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "crypto",
+    "title": "Fun with RSA — DalCTF 2026 (Crypto)",
+    "path": "writeups/community/dalctf-2026/crypto/fun-with-rsa/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Crypto\" challenge: \"Fun with RSA\" flag: \"dalctf{s3gf4u17r54m1x3dw17hx0r}\" teknik: \"Script mempublikasikan signature RSA s = m^d mod n..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "crypto",
+    "title": "LCG Seed Squared — DalCTF 2026 (Crypto)",
+    "path": "writeups/community/dalctf-2026/crypto/lcg-seed-squared/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Crypto\" challenge: \"LCG Seed Squared\" flag: \"DalCTF{533m1ng1yr4nd0m1yg3n3r473dnum63rs}\" teknik: \"Known-plaintext atas output multipli..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "crypto",
+    "title": "Playing with Pointers — DalCTF 2026 (Crypto)",
+    "path": "writeups/community/dalctf-2026/crypto/playing-with-pointers/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Crypto\" challenge: \"Playing with Pointers\" flag: \"DalCTF{s0m3fUnw17hP01n73r5}\" teknik: \"Type punning gaya Quake: cast float ke long m..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "reverse",
+    "title": "Do you know the way? — DalCTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/dalctf-2026/reverse/do-you-know-the-way/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Do you know the way?\" flag: \"dalctf{symb0ls4r34lw4ys3xtr3m3lyh3lpfu1}\" teknik: \"ELF x86-64 ter-pack ..."
+  },
+  {
+    "event": "DalCTF 2026",
+    "eventSlug": "dalctf-2026",
+    "category": "web",
+    "title": "Baby Web — DalCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/dalctf-2026/web/baby-web/writeup.md",
+    "description": "--- ctf: \"DalCTF 2026\" kategori: \"Web Exploitation\" challenge: \"Baby Web\" flag: \"dalctf{n0wy0uar3th3b0ssb4by}\" teknik: \"Atribut HTML hidden=\\\"true\\\" menyembunyikan fla..."
+  },
+  {
+    "event": "Midnight Sun CTF 2026 Quals",
+    "eventSlug": "midnight-sun-ctf-2026-quals",
+    "category": "reverse",
+    "title": "empols — Midnight Sun CTF 2026 Quals (Reverse Engineering / Automation)",
+    "path": "writeups/community/midnight-sun-ctf-2026-quals/reverse/empols/writeup.md",
+    "description": "--- ctf: \"Midnight Sun CTF 2026 Quals\" kategori: \"Reverse Engineering / Misc\" challenge: \"empols\" flag: \"midnight{y0u4r3th3m4st3r0fsl0ps0lv3s}\" teknik: \"Server memberi..."
+  },
+  {
+    "event": "Midnight Sun CTF 2026 Quals",
+    "eventSlug": "midnight-sun-ctf-2026-quals",
+    "category": "reverse",
+    "title": "riscal — Midnight Sun CTF 2026 Quals (Reverse Engineering)",
+    "path": "writeups/community/midnight-sun-ctf-2026-quals/reverse/riscal/writeup.md",
+    "description": "--- ctf: \"Midnight Sun CTF 2026 Quals\" kategori: \"Reverse Engineering\" challenge: \"riscal\" flag: \"midnight{RISCV1S434zy1S470unDeRst4Nd!!}\" teknik: \"ELF RISC-V 64-bit y..."
+  },
+  {
+    "event": "NoHackNoCTF 2026",
+    "eventSlug": "nohacknoctf-2026",
+    "category": "crypto",
+    "title": "modern-crypto-101 — NoHackNoCTF 2026 (Crypto)",
+    "path": "writeups/community/nohacknoctf-2026/crypto/modern-crypto-101/writeup.md",
+    "description": "--- ctf: \"NoHackNoCTF 2026 (NHNC)\" kategori: \"Crypto\" challenge: \"modern-crypto-101\" flag: \"NHNC{c7rk3y57r34m55h0uldn3v3rr37urn}\" teknik: \"Reuse keystream AES-CTR kare..."
+  },
+  {
+    "event": "NoHackNoCTF 2026",
+    "eventSlug": "nohacknoctf-2026",
+    "category": "crypto",
+    "title": "Talking to the Sun — NoHackNoCTF 2026 (Crypto / Web)",
+    "path": "writeups/community/nohacknoctf-2026/crypto/talking-to-the-sun/writeup.md",
+    "description": "--- ctf: \"NoHackNoCTF 2026 (NHNC)\" kategori: \"Crypto (berbentuk Web)\" challenge: \"Talking to the Sun\" flag: \"NHNC{itsalwaysagoodtime(toplaywithpythonlower)}\" teknik: \"..."
+  },
+  {
+    "event": "NoHackNoCTF 2026",
+    "eventSlug": "nohacknoctf-2026",
+    "category": "forensic",
+    "title": "Kira-Notes — NoHackNoCTF 2026 (Forensics)",
+    "path": "writeups/community/nohacknoctf-2026/forensic/kira-notes/writeup.md",
+    "description": "--- ctf: \"NoHackNoCTF 2026 (NHNC)\" kategori: \"Forensics\" challenge: \"Kira-Notes\" flag: \"NHNC{n0wy0ukn0wh0wt0f0r3ns1c0x00000Easyyyyyyyyy}\" teknik: \"Firefox places.sqlit..."
+  },
+  {
+    "event": "NoHackNoCTF 2026",
+    "eventSlug": "nohacknoctf-2026",
+    "category": "osint",
+    "title": "Final Boarding — NoHackNoCTF 2026 (Misc / OSINT)",
+    "path": "writeups/community/nohacknoctf-2026/osint/final-boarding/writeup.md",
+    "description": "--- ctf: \"NoHackNoCTF 2026 (NHNC)\" kategori: \"Misc / OSINT\" challenge: \"Final Boarding\" flag: \"NHNC{20260505GK55}\" teknik: \"Foto boarding gate tunggal; EXIF + registra..."
+  },
+  {
+    "event": "NoHackNoCTF 2026",
+    "eventSlug": "nohacknoctf-2026",
+    "category": "web",
+    "title": "Who is Whois — NoHackNoCTF 2026 (Web Exploitation)",
+    "path": "writeups/community/nohacknoctf-2026/web/who-is-whois/writeup.md",
+    "description": "--- ctf: \"NoHackNoCTF 2026 (NHNC)\" kategori: \"Web Exploitation\" challenge: \"Who is Whois\" flag: \"NHNC{wH0ist0R3d1ss5RfTq9xZ7mPc96e6295f10f4d31bc48202f9772d8c7}\" teknik..."
+  },
+  {
+    "event": "R3CTF 2026",
+    "eventSlug": "r3ctf-2026",
+    "category": "crypto",
+    "title": "HEuristic — R3CTF 2026 (Crypto)",
+    "path": "writeups/community/r3ctf-2026/crypto/heuristic/writeup.md",
+    "description": "--- ctf: \"R3CTF 2026 (r3kapig)\" kategori: \"Crypto\" challenge: \"HEuristic\" flag: \"r3ctf{H3URistIC-De1T@-15-H1dDen-iN-fu1LYh0mom0rPh1Cencryptionschemes0}\" teknik: \"Serve..."
+  },
+  {
+    "event": "R3CTF 2026",
+    "eventSlug": "r3ctf-2026",
+    "category": "forensic",
+    "title": "Tsuki's Rhythm Game — R3CTF 2026 (Forensics)",
+    "path": "writeups/community/r3ctf-2026/forensic/tsukis-rhythm-game/writeup.md",
+    "description": "--- ctf: \"R3CTF 2026 (r3kapig)\" kategori: \"Forensics\" challenge: \"Tsuki's Rhythm Game\" flag: \"r3ctf{f1n@1Iy-yOUf1nDtHES3CR3t6EHiNDrHytHM-4Nd-Tr4c3them0}\" teknik: \"Rant..."
+  },
+  {
+    "event": "R3CTF 2026",
+    "eventSlug": "r3ctf-2026",
+    "category": "misc",
+    "title": "Blinky — R3CTF 2026 (Misc / Hardware)",
+    "path": "writeups/community/r3ctf-2026/misc/blinky/writeup.md",
+    "description": "--- ctf: \"R3CTF 2026 (r3kapig)\" kategori: \"Misc (Hardware/RTL)\" challenge: \"Blinky\" flag: \"r3ctf{seCur3aNaIy2Ingp3rFOrmanc3wOrkflOw4124}\" teknik: \"PAC gate MIPS64r6 di..."
+  },
+  {
+    "event": "R3CTF 2026",
+    "eventSlug": "r3ctf-2026",
+    "category": "web",
+    "title": "mafuyuuuuu — R3CTF 2026 (Web / ASP.NET)",
+    "path": "writeups/community/r3ctf-2026/web/mafuyuuuuu/writeup.md",
+    "description": "--- ctf: \"R3CTF 2026 (r3kapig)\" kategori: \"Web (ASP.NET)\" challenge: \"mafuyuuuuu\" flag: \"r3ctf{0tomEK4iBOU-d3@so6Ou-YoDokidoKl-sHit@1-J@NKadaredattecongratsfindingthec..."
+  },
+  {
+    "event": "R3CTF 2026",
+    "eventSlug": "r3ctf-2026",
+    "category": "web",
+    "title": "r3ticket — R3CTF 2026 (Web / Python)",
+    "path": "writeups/community/r3ctf-2026/web/r3ticket/writeup.md",
+    "description": "--- ctf: \"R3CTF 2026 (r3kapig)\" kategori: \"Web (Python)\" challenge: \"r3ticket\" flag: \"r3ctf{H0pEy0u1ovE-THIStICKet-SErlEs-XD58c5c}\" teknik: \"Helper Lagrange interpolat..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "pwn",
+    "title": "RIFFHACK Escrow Terminal — RIFFHACK 2026 (Pwn)",
+    "path": "writeups/community/riffhack-2026/pwn/12-riffhack-escrow-terminal/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Pwn (Binary Exploitation)\" challenge: \"RIFFHACK Escrow Terminal\" flag: \"bitctf{{35cr0wn0735wr173th3ch3ck}}\" teknik: \"printf(usernot..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "Buyer Lookup Loose Query — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/03-buyer-lookup-loose-query/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"Buyer Lookup Loose Query\" flag: \"bitflag{1nj3ct10nturn54l00kup1nt04l34k}\" teknik: \"SQL string-concatenated pada /a..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "Coupon Stacking — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/04-coupon-stacking/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"Coupon Stacking\" flag: \"bitflag{c0up0nst4ck1ng1s4d34l}\" teknik: \"Prop server React (couponFlag) sudah ada di paylo..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "Marketplace Reviews Look Tidy — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/06-marketplace-reviews-look-tidy/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"Marketplace Reviews Look Tidy\" flag: \"bitflag{r3v13w0wn3r5h1p1sn0t4sugg35t10n}\" teknik: \"IDOR PUT /api/reviews/<id..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "Order History Should Be Private — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/07-order-history-should-be-private/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"Order History Should Be Private\" flag: \"bitflag{1d0r1s4d4ng3r0usg4m3}\" teknik: \"JWT alg:none diterima + IDOR di GE..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "Robots.txt Courtesy — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/01-robots-txt-courtesy/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"Robots.txt Courtesy\" flag: \"bitflag{r0b0ts4r3n0t4s3cr3tv4ult}\" teknik: \"Entri Disallow: di robots.txt mengiklankan..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "The Glitchy Contact System — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/05-glitchy-contact-system/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"The Glitchy Contact System\" flag: \"bitflag{d3bugm0d31sd4ng3r0us}\" teknik: \"Prop RSC sudah ada di HTML sebelum clie..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "The Night Dump — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/08-the-night-dump/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"The Night Dump\" flag: \"bitflag{3xp0rtssh0uldn0tb30p3nb00ks}\" teknik: \"?format=transcript pada /api/support/chat me..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "The Proof Locker — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/11-the-proof-locker/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"The Proof Locker\" flag: \"bitflag{pr00fp4ths5h0uldst4y1nb0unds}\" teknik: \"Path traversal di /api/reviews/proof?proo..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "The Proof Stamp — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/09-the-proof-stamp/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"The Proof Stamp\" flag: \"bitflag{md51sbr0k3nl1k3myh34rt}\" teknik: \"\\\"Integrity check\\\" cuma MD5 dari nama file itu ..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "The Trusting Login Desk — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/02-trusting-login-desk/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"The Trusting Login Desk\" flag: \"bitflag{tru5t3dr3d1r3ctsc4nc4rrys3cr3ts}\" teknik: \"Open redirect pada GET /api/aut..."
+  },
+  {
+    "event": "RIFFHACK 2026",
+    "eventSlug": "riffhack-2026",
+    "category": "web",
+    "title": "The Trusting Verifier — RIFFHACK 2026 (Web)",
+    "path": "writeups/community/riffhack-2026/web/10-the-trusting-verifier/writeup.md",
+    "description": "--- ctf: \"RIFFHACK 2026\" kategori: \"Web\" challenge: \"The Trusting Verifier\" flag: \"bitflag{ssrf1s4p4rtycr4sh3r}\" teknik: \"SSRF tanpa allow-list pada /api/vendor/verify..."
+  },
+  {
+    "event": "scriptCTF 2026",
+    "eventSlug": "scriptctf-2026",
+    "category": "crypto",
+    "title": "Misdirection — scriptCTF 2026 (Crypto, 160 poin)",
+    "path": "writeups/community/scriptctf-2026/crypto/misdirection/writeup.md",
+    "description": "--- ctf: \"scriptCTF 2026\" kategori: \"Crypto\" challenge: \"Misdirection\" flag: \"scriptCTF{notwhatitseems}\" teknik: \"115 bit habis dibagi 5 (bukan 8) → 23 grup 5-bit → ha..."
+  },
+  {
+    "event": "scriptCTF 2026",
+    "eventSlug": "scriptctf-2026",
+    "category": "reverse",
+    "title": "F\\\\K — scriptCTF 2026 (Reverse Engineering, 454 poin)",
+    "path": "writeups/community/scriptctf-2026/reverse/funk/writeup.md",
+    "description": "--- ctf: \"scriptCTF 2026\" kategori: \"Reverse Engineering\" challenge: \"FK\" flag: \"scriptCTF{t1mm1ngs1d$ch@nn31}\" teknik: \"Program Brainfuck 28.786-byte; 31 pengecekan b..."
+  },
+  {
+    "event": "SCTF 2026",
+    "eventSlug": "sctf-2026",
+    "category": "blockchain",
+    "title": "Chronostasis — SCTF 2026 (Blockchain / DeFi)",
+    "path": "writeups/community/sctf-2026/blockchain/chronostasis/writeup.md",
+    "description": "--- ctf: \"SCTF 2026\" kategori: \"Blockchain / DeFi\" challenge: \"Chronostasis\" flag: \"(tidak dipublikasikan di sumber; drain vault sepenuhnya = solved)\" teknik: \"TWAP or..."
+  },
+  {
+    "event": "SCTF 2026",
+    "eventSlug": "sctf-2026",
+    "category": "crypto",
+    "title": "The Last Honest Witness — SCTF 2026 (Crypto / Zero-Knowledge)",
+    "path": "writeups/community/sctf-2026/crypto/the-last-honest-witness/writeup.md",
+    "description": "--- ctf: \"SCTF 2026\" kategori: \"Crypto / Zero-Knowledge\" challenge: \"The Last Honest Witness\" flag: \"SCTF{SYC!nternRay}\" teknik: \"Empat sub-puzzle kripto (Franklin-Rei..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "crypto",
+    "title": "Cascadino Chain — THEM?! CTF 2026 (Crypto)",
+    "path": "writeups/community/them-ctf-2026/crypto/cascadino-chain/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Crypto\" challenge: \"Cascadino Chain\" flag: \"THEM?!CTF{x0rx0rx0rcha1n1ngg0esbrrrr}\" teknik: \"Closed cycle 4-tahap kunci XOR; crib ..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "crypto",
+    "title": "Despacito — THEM?! CTF 2026 (Crypto)",
+    "path": "writeups/community/them-ctf-2026/crypto/despacito/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Crypto\" challenge: \"Despacito\" flag: \"THEM?!CTF{D3S4774KW3SAW3S0M3}\" teknik: \"Kunci lemah DES yang disamarkan lewat parity bit (E..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "crypto",
+    "title": "No 7race — THEM?! CTF 2026 (Crypto)",
+    "path": "writeups/community/them-ctf-2026/crypto/no-7race/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Crypto\" challenge: \"No 7race\" flag: \"THEM?!CTF{NUMB3RTH30R3M1SFUN}\" teknik: \"a << 77777 berakhir dengan sufiks 155-digit → CRT mo..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "reverse",
+    "title": "Ancient Signals — THEM?! CTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/them-ctf-2026/reverse/ancient-signals/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Ancient Signals\" flag: \"THEM?!CTF{1mag1n3gett1ngr1ckr0ll3d1ntH3M?!C7FxDDD}\" teknik: \"Kebocoran X..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "reverse",
+    "title": "Entropy Core — THEM?! CTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/them-ctf-2026/reverse/entropy-core/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Entropy Core\" flag: \"THEM?!CTF{Entr0pyC0r3VMS0Funny!}\" teknik: \"VM bytecode 64-bit 16-register, ..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "reverse",
+    "title": "Eyes Chico — THEM?! CTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/them-ctf-2026/reverse/eyes-chico/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Eyes Chico\" flag: \"THEM?!CTF{R3V3R533X3CU710NVMW17HMU7471NGR3G1573R54NDC0N7R0LFL0WFL4773N1NGM4K3..."
+  },
+  {
+    "event": "THEM CTF 2026",
+    "eventSlug": "them-ctf-2026",
+    "category": "reverse",
+    "title": "Old Cassette — THEM?! CTF 2026 (Reverse Engineering)",
+    "path": "writeups/community/them-ctf-2026/reverse/old-cassette/writeup.md",
+    "description": "--- ctf: \"THEM?! CTF 2026\" kategori: \"Reverse Engineering\" challenge: \"Old Cassette\" flag: \"THEM?!CTF{0LDT4P3N3V3RD1E5K7}\" teknik: \"ROM CHIP-8; state-machine 16-bit ma..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "crypto",
+    "title": "bit-leak — TJCTF 2026 (Crypto)",
+    "path": "writeups/community/tjctf-2026/crypto/bit-leak/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Crypto\" challenge: \"bit-leak\" flag: \"tjctf{parityisntprivacy}\" teknik: \"RSA parity oracle bergaya Bleichenbache..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "crypto",
+    "title": "maas — TJCTF 2026 (Crypto)",
+    "path": "writeups/community/tjctf-2026/crypto/maas/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Crypto\" challenge: \"maas\" flag: \"tjctf{permendaciumadveritatem}\" teknik: \"Invalid-curve attack — oracle tidak v..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "crypto",
+    "title": "minervas-stopwatch — TJCTF 2026 (Crypto)",
+    "path": "writeups/community/tjctf-2026/crypto/minervas-stopwatch/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Crypto\" challenge: \"minervas-stopwatch\" flag: \"tjctf{m1n3rv4h34rdth3n0nc3tick}\" teknik: \"Kebocoran timing ECDSA..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "crypto",
+    "title": "squares — TJCTF 2026 (Crypto)",
+    "path": "writeups/community/tjctf-2026/crypto/squares/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Crypto\" challenge: \"squares\" flag: \"tjctf{m4tr1c3s4r34lly0un33d}\" teknik: \"Titik stasioner bentuk kuadratik H(x..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "crypto",
+    "title": "TAUtology — TJCTF 2026 (Crypto)",
+    "path": "writeups/community/tjctf-2026/crypto/tautology/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Crypto\" challenge: \"TAUtology\" flag: \"tjctf{w0rthth3w41t6283185zzz}\" teknik: \"ReDoS catastrophic backtracking d..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "crypto",
+    "title": "wavy — TJCTF 2026 (Crypto)",
+    "path": "writeups/community/tjctf-2026/crypto/wavy/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Crypto\" challenge: \"wavy\" flag: \"tjctf{ch3bysh3vp0lyn0m1!l676767}\" teknik: \"Keystream dari polinomial Chebyshev..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "forensic",
+    "title": "check-the-fine-print — TJCTF 2026 (Forensics)",
+    "path": "writeups/community/tjctf-2026/forensic/check-the-fine-print/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Forensics\" challenge: \"check-the-fine-print\" flag: \"tjctf{wowyouactuallyreadit}\" teknik: \"Byte 26 (compression ..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "forensic",
+    "title": "invisible-ink — TJCTF 2026 (Forensics)",
+    "path": "writeups/community/tjctf-2026/forensic/invisible-ink/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Forensics\" challenge: \"invisible-ink\" flag: \"tjctf{p0lygl0tf1les4r350c00l}\" teknik: \"Polyglot PDF+ZIP; teks put..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "forensic",
+    "title": "loud-packets — TJCTF 2026 (Forensics)",
+    "path": "writeups/community/tjctf-2026/forensic/loud-packets/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Forensics\" challenge: \"loud-packets\" flag: \"tjctf{v3ryl0udpc4pf1le}\" teknik: \"Bukan PCAP sama sekali — image ra..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "forensic",
+    "title": "thomas-schools-of-china — TJCTF 2026 (Forensics)",
+    "path": "writeups/community/tjctf-2026/forensic/thomas-schools-of-china/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Forensics\" challenge: \"thomas-schools-of-china\" flag: \"tjctf{c0ngr4tsus0lv3dmyf1stCTFchall!btw1l1keb1rds}\" tekn..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "forensic",
+    "title": "unfinished-file — TJCTF 2026 (Forensics)",
+    "path": "writeups/community/tjctf-2026/forensic/unfinished-file/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Forensics\" challenge: \"unfinished-file\" flag: \"tjctf{n3v3rl3t0therp30plet0uchurc0mputer}\" teknik: \"File .crdown..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "forensic",
+    "title": "voice-in-the-packet — TJCTF 2026 (Forensics)",
+    "path": "writeups/community/tjctf-2026/forensic/voice-in-the-packet/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Forensics\" challenge: \"voice-in-the-packet\" flag: \"tjctf{h3yv0ips73gis47hing}\" teknik: \"Stego LSB pada offset g..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "misc",
+    "title": "jumper — TJCTF 2026 (Misc)",
+    "path": "writeups/community/tjctf-2026/misc/jumper/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Misc\" challenge: \"jumper\" flag: \"tjctf{PASTTHEWALL}\" teknik: \"Godot 4.6 PCK dengan directory offset di slot bar..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "misc",
+    "title": "mind-blowers — TJCTF 2026 (Misc)",
+    "path": "writeups/community/tjctf-2026/misc/mind-blowers/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Misc\" challenge: \"mind-blowers\" flag: \"tjctf{bl0ckl1st54r3n0ts4f33v3nf0rr1ck}\" teknik: \"Pickle escape via loade..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "reverse",
+    "title": "polaroid — TJCTF 2026 (Reverse)",
+    "path": "writeups/community/tjctf-2026/reverse/polaroid/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Reverse\" challenge: \"polaroid\" flag: \"tjctf{developthepicture}\" teknik: \"Password tertanam di Mach-O ARM64 + XO..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "reverse",
+    "title": "remoose — TJCTF 2026 (Reverse)",
+    "path": "writeups/community/tjctf-2026/reverse/remoose/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Reverse\" challenge: \"remoose\" flag: \"tjctf{5ma11m00s3}\" teknik: \"ELF terkorupsi (0x00→0x20 + byte magic ke-4 di..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "reverse",
+    "title": "rotated — TJCTF 2026 (Reverse)",
+    "path": "writeups/community/tjctf-2026/reverse/rotated/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Reverse\" challenge: \"rotated\" flag: \"tjctf{b45hd3bu6m4573r}\" teknik: \"Empat layer bertumpuk: byte rotation → UP..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "web",
+    "title": "chained — TJCTF 2026 (Web)",
+    "path": "writeups/community/tjctf-2026/web/chained/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Web\" challenge: \"chained\" flag: \"tjctf{ch41n3do340e934l35d}\" teknik: \"Celah normalisasi URL WHATWG (Chrome) vs ..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "web",
+    "title": "free-cloud-storage — TJCTF 2026 (Web)",
+    "path": "writeups/community/tjctf-2026/web/free-cloud-storage/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Web\" challenge: \"free-cloud-storage\" flag: \"tjctf{il0v3fr33st0r4g3}\" teknik: \"Zip Slip pada chumper/zipper 1.0...."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "web",
+    "title": "paper-trail — TJCTF 2026 (Web)",
+    "path": "writeups/community/tjctf-2026/web/paper-trail/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Web\" challenge: \"paper-trail\" flag: \"tjctf{7h47is4nic3k3yc4rdy0ug077h3r3}\" teknik: \"JWT RS256 dengan verificati..."
+  },
+  {
+    "event": "TJCTF 2026",
+    "eventSlug": "tjctf-2026",
+    "category": "web",
+    "title": "Treasure Hunt — TJCTF 2026 (Web)",
+    "path": "writeups/community/tjctf-2026/web/treasure-hunt/writeup.md",
+    "description": "--- ctf: \"TJCTF 2026 (Thomas Jefferson CTF)\" kategori: \"Web\" challenge: \"Treasure Hunt\" flag: \"tjctf{s1lv3randg0ld}\" teknik: \"Triad recon klasik: view-source, POST → c..."
+  }
+]

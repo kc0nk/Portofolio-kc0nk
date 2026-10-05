@@ -144,8 +144,36 @@
           <div class="brunner-card-cta">OPEN ARCHIVE <span>↗</span></div>
         </article>
 
+        <article class="brunner-event-card community-event-card reveal" id="communityEventCard" tabindex="0" role="button" aria-haspopup="dialog" aria-controls="communityModal">
+          <div class="brunner-card-mark"><span>ARCHIVE</span><strong>2026</strong></div>
+          <div class="brunner-card-copy">
+            <div class="event-kicker">KOMANDO 71 · COMMUNITY WRITE-UP ARCHIVE</div>
+            <h3>CTF Writeups Collection</h3>
+            <p>Koleksi write-up tambahan dari berbagai event CTF, dipisahkan per event, kategori, dan challenge. Seluruh file menggunakan format Markdown.</p>
+            <div class="brunner-card-meta"><span>162 WRITE-UPS</span><span>18 EVENTS</span><span>18 CATEGORIES</span><span>MARKDOWN</span></div>
+          </div>
+          <div class="brunner-card-cta">OPEN ARCHIVE <span>↗</span></div>
+        </article>
+
       </div>
     </section>
+
+
+    <div class="brunner-modal" id="communityModal" aria-hidden="true">
+      <div class="brunner-modal-backdrop" data-close-community></div>
+      <div class="brunner-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="communityModalTitle">
+        <button class="brunner-close" type="button" data-close-community aria-label="Close">×</button>
+        <div class="brunner-modal-head">
+          <div><div class="event-kicker">KOMANDO 71 · COMMUNITY ARCHIVE</div><h3 id="communityModalTitle">CTF WRITEUPS COLLECTION</h3><p>SELECT CATEGORY</p></div>
+          <div class="brunner-modal-year">2026</div>
+        </div>
+        <div class="brunner-modal-cats" id="communityCats"></div>
+        <div class="brunner-modal-body">
+          <div class="brunner-info" id="communityInfo"><strong>162</strong><span>challenge write-ups archived</span><p>Setiap challenge mempunyai folder dan file <code>writeup.md</code> sendiri.</p></div>
+          <div class="pwnsec-challenges community-challenges" id="communityChallenges"></div>
+        </div>
+      </div>
+    </div>
 
     <div class="brunner-modal" id="brunnerModal" aria-hidden="true">
     <div class="brunner-modal-backdrop" data-close-brunner></div>

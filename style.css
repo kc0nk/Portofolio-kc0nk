@@ -156,3 +156,6 @@
 
 .cyberleague-event-card{margin-top:16px}.cyberleague-event-card .brunner-card-mark{background:linear-gradient(180deg,#0b1418,#071012)}.cyberleague-challenges{grid-template-columns:repeat(3,minmax(0,1fr))}.cyberleague-challenges .pwnsec-challenge{min-height:210px}
 @media(max-width:980px){.cyberleague-challenges{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.cyberleague-challenges{grid-template-columns:1fr}}
+
+.community-event-card{margin-top:16px}.community-challenges{grid-template-columns:repeat(3,minmax(0,1fr))}.community-challenge{min-height:220px}.community-challenge .badge{display:inline-block}.community-challenge strong{color:#9ab7ad;font-weight:600}
+@media(max-width:980px){.community-challenges{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.community-challenges{grid-template-columns:1fr}}

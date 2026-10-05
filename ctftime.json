@@ -2,11 +2,12 @@
   "team": "KOMANDO 71",
   "teamId": 434825,
   "year": 2026,
-  "worldRank": 558,
+  "worldRank": 494,
   "countryRank": 15,
-  "ratingPoints": 128213,
-  "events": 20,
+  "ratingPoints": 143001,
+  "events": 22,
   "country": "Indonesia",
   "updatedAt": null,
-  "source": "https://ctftime.org/api/v1/teams/434825/"
+  "source": "https://ctftime.org/api/v1/teams/434825/",
+  "rankingSource": "https://ctftime.org/stats/2026/ID"
 }
