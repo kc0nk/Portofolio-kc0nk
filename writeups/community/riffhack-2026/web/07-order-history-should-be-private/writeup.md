@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Order History Should Be Private"
 flag: "bitflag{1d0r_1s_4_d4ng3r0us_g4m3}"
 teknik: "JWT alg:none diterima + IDOR di GET /api/orders; filter status='completed' adalah pengalih, forge sebagai reviewer seed k7m3n"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/07-web7-orders-jwt-idor"
 ---
 
 # Order History Should Be Private — RIFFHACK 2026 (Web)

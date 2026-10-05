@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Playing with Pointers"
 flag: "DalCTF{s0m3_fUn_w17h_P01n73r5}"
 teknik: "Type punning gaya Quake: cast float* ke long* menghasilkan pola bit IEEE-754 dari (float)(c)^2; balik dengan unpack float, sqrt, round"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Playing with Pointers — DalCTF 2026 (Crypto)

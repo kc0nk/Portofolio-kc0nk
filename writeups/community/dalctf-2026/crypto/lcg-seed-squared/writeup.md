@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "LCG Seed Squared"
 flag: "DalCTF{533m1ng1y_r4nd0m1y_g3n3r473d_num63rs}"
 teknik: "Known-plaintext atas output multiplikatif t_i = ord(flag[i]) * x_i; flag[0]='D'=68 langsung memberi x_1 tanpa inversi LCG"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # LCG Seed Squared — DalCTF 2026 (Crypto)

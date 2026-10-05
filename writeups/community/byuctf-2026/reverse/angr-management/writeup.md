@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Angr Management"
 flag: "byuctf{g3t_w1th_th3_c0ntr01_fl0w}"
 teknik: "Directed graph 625-node; BFS dari 0 ke 624 mereproduksi urutan input yang dibutuhkan"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Angr Management — BYUCTF 2026 (Reverse Engineering)

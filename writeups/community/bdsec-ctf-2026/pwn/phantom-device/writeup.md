@@ -4,7 +4,6 @@ kategori: "Pwn (Binary Exploitation)"
 challenge: "Phantom Device"
 flag: "BDSEC{ph4nt0m_h4ndl35_n3v3r_d13}"
 teknik: "Duplicate-handle tidak increment refcount; release-handle memakai refcount → UAF; grooming tcache 0x110 bin mengoverlap handle device lama dengan objek session baru"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Phantom Device — BDSec CTF 2026 (Pwn, 100 poin)

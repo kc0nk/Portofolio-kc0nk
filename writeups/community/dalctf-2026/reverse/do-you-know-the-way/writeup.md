@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Do you know the way?"
 flag: "dalctf{symb0ls_4r3_4lw4ys_3xtr3m3ly_h3lpfu1}"
 teknik: "ELF x86-64 ter-pack UPX yang simbolnya tidak di-strip; 44 fungsi f_i per-byte di-brute-force, gerbang runtime di main hanyalah dekorasi"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Do you know the way? — DalCTF 2026 (Reverse Engineering)

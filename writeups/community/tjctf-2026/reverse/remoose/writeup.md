@@ -4,7 +4,6 @@ kategori: "Reverse"
 challenge: "remoose"
 flag: "tjctf{5ma11_m00s3}"
 teknik: "ELF terkorupsi (0x00→0x20 + byte magic ke-4 diubah); setelah diperbaiki, fungsi berantai flag()→flag4() mencetak flag lewat putchar immediate"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # remoose — TJCTF 2026 (Reverse)

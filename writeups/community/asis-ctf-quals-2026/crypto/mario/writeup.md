@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Mario"
 flag: "ASIS{MARY0___grOe8n3r___8aSi5_chA1L3n9e_Mas7eR3d_r3A1Ly?!!!}"
 teknik: "64 report UOV semua di-mask vektor g yang sama → merentang W=O⊕span(g) 25-dimensi; quadratic form yang vanish di hyperplane O faktor jadi l·L, polar form-nya rank 2, kernel-nya memulihkan oil space"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/Mario"
 ---
 
 # Mario — ASIS CTF Quals 2026 (Crypto, Medium)

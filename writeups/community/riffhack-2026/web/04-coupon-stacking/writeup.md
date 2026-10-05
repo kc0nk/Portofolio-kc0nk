@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Coupon Stacking"
 flag: "bitflag{c0up0n_st4ck1ng_1s_4_d34l}"
 teknik: "Prop server React (couponFlag) sudah ada di payload RSC sebelum JS apa pun berjalan; bug logika coupon-stacking hanyalah umpan"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/04-web4-coupon-stacking"
 ---
 
 # Coupon Stacking — RIFFHACK 2026 (Web)

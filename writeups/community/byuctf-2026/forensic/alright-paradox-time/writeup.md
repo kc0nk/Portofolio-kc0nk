@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "Alright. Paradox Time"
 flag: "byuctf{S0_My_P4r4d0x_!d34_D!dnt_W0rk}"
 teknik: "Detik-dari-baseline pada timestamp NTP mengkodekan byte ASCII, sesuai urutan field"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Alright. Paradox Time — BYUCTF 2026 (Forensics)

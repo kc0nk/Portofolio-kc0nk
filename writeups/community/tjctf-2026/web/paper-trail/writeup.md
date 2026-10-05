@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "paper-trail"
 flag: "tjctf{7h47_is_4_nic3_k3yc4rd_y0u_g07_7h3r3}"
 teknik: "JWT RS256 dengan verification key diresolve dari header jwk milik token sendiri (attacker-controlled)"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # paper-trail — TJCTF 2026 (Web)

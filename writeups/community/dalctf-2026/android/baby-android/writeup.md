@@ -4,7 +4,6 @@ kategori: "Mobile (Android)"
 challenge: "Baby Android"
 flag: "dalctf{4ndr0id_d3bugg1ng_1s_e4sy}"
 teknik: "Flag tertanam statis dalam 3 potongan di MainActivity.java, strings.xml, dan ColorKt.java; tanpa pengecekan runtime maupun obfuskasi"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Baby Android — DalCTF 2026 (Android)

@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "thomas-schools-of-china"
 flag: "tjctf{c0ngr4ts_u_s0lv3d_my_f1st_CTF_chall!_btw_1_l1ke_b1rds}"
 teknik: "Container kustom .tsc; flag ada di pixel dengan channel RGB yang menyimpang (bukan pixel abu-abu tubuh bebek)"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # thomas-schools-of-china — TJCTF 2026 (Forensics)

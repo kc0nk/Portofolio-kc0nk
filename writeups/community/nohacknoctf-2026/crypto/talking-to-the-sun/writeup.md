@@ -4,7 +4,6 @@ kategori: "Crypto (berbentuk Web)"
 challenge: "Talking to the Sun"
 flag: "NHNC{its_always_a_good_time_(_to_play_with_python_lower_)}"
 teknik: "ECDSA nonce same-prefix (Hidden Number Problem) diaktifkan lewat bug ekspansi panjang .lower() Python pada huruf Turki İ (U+0130); dipecahkan dengan lattice Boneh-Venkatesan/LLL"
-sumber: "https://github.com/Abdelkad3r/NoHackNoCTF-2026/tree/main/crypto/talking-to-the-sun"
 ---
 
 # Talking to the Sun — NoHackNoCTF 2026 (Crypto / Web)

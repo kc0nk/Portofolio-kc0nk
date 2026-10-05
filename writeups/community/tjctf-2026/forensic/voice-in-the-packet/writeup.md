@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "voice-in-the-packet"
 flag: "tjctf{h3y_v0ip_s73g_is_4_7hing}"
 teknik: "Stego LSB pada offset genap sampel PCM G.711 µ-law RTP; 5 dari 1000 packet menyimpang dari template"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # voice-in-the-packet — TJCTF 2026 (Forensics)

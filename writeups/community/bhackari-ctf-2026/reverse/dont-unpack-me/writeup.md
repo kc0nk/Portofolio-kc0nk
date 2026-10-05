@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Don't Unpack Me"
 flag: "bhackariCTF{7zip_1s_aw3s0m3}"
 teknik: "PE 5.632-byte hand-crafted; manual PE loader menambal 4 callback ke PE dalam; CRC32(GetHandlerProperty2 milik 7z.dll v24.09) jadi kunci RC4"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Don't Unpack Me — BhAcKAri CTF 2026 (Reverse Engineering)

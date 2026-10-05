@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Mystery (Python C-extension)"
 flag: "bhackariCTF{F1n4lly_th4_My$t3rY_!S_$OlvEd!!!}"
 teknik: "C-extension ter-strip yang meng-hash dirinya sendiri (SHA-256+CRC32) untuk menurunkan kunci AES-256-CTR; seluruh rantai bisa diselesaikan offline dari byte .so-nya sendiri"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Mystery (Python C-extension) — BhAcKAri CTF 2026 (Reverse Engineering)

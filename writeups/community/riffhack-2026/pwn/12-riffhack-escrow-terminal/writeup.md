@@ -4,7 +4,6 @@ kategori: "Pwn (Binary Exploitation)"
 challenge: "RIFFHACK Escrow Terminal"
 flag: "bitctf{{35cr0w_n0735_wr173_th3_ch3ck}}"
 teknik: "printf(user_note) dengan blocklist yang cuma menolak %n; leak pointer via %p posisional lalu tulis %hn untuk mengalihkan pointer vault aktif ke vault terpercaya"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/12-riffhack-escrow-terminal"
 ---
 
 # RIFFHACK Escrow Terminal — RIFFHACK 2026 (Pwn)

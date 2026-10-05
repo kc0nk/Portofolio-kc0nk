@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "RSA Dreams"
 flag: "byuctf{great_job_recovering_the_flag}"
 teknik: "hint = p + q memberikan φ(n) = n − hint + 1 lewat satu pengurangan"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # RSA Dreams — BYUCTF 2026 (Crypto)

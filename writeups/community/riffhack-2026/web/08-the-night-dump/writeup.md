@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "The Night Dump"
 flag: "bitflag{3xp0rts_sh0uld_n0t_b3_0p3n_b00ks}"
 teknik: "?format=transcript pada /api/support/chat membuang filter scope-user dan mengembalikan baris mentah termasuk internalNote admin-only"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/08-the-night-dump"
 ---
 
 # The Night Dump — RIFFHACK 2026 (Web)

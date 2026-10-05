@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Cascadino Chain"
 flag: "THEM?!CTF{x0r_x0r_x0r_cha1n1ng_g0es_brrrr}"
 teknik: "Closed cycle 4-tahap kunci XOR; crib format flag (THEM ⊕ c1[0:4]) memecah rantainya"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # Cascadino Chain — THEM?! CTF 2026 (Crypto)

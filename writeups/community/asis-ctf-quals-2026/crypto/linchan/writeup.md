@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Linchan"
 flag: "ASIS{Mr.__L1nChaN_h3aViEr__GFq2__ma7ch!nG_9aUntl3t!!?}"
 teknik: "Matriks rank-25 ditanam di setiap subspace GF(2) asli di antara 102 decoy; rank invarian terhadap change-of-basis dan transposisi; scan MinRank Gray-code 14 detik menemukan plant-nya"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/Linchan"
 ---
 
 # Linchan — ASIS CTF Quals 2026 (Crypto, Hard)

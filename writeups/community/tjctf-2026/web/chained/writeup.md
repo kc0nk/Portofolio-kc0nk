@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "chained"
 flag: "tjctf{ch41n3d_o340e934l35d}"
 teknik: "Celah normalisasi URL WHATWG (Chrome) vs regex string literal di server → SSRF admin-bot"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # chained — TJCTF 2026 (Web)

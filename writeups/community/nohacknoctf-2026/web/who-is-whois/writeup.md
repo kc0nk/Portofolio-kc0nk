@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "Who is Whois"
 flag: "NHNC{wH0is_t0_R3d1s_s5Rf_Tq9x_Z7mP_c96e6295f10f4d31bc48202f9772d8c7}"
 teknik: "whois -h/-p sebagai TCP client → SSRF ke Redis lokal → CONFIG SET dir + SAVE menulis RDB ke folder template Flask → Jinja2 SSTI dengan request.args untuk menyelundupkan string terblokir"
-sumber: "https://github.com/Abdelkad3r/NoHackNoCTF-2026/tree/main/web/who-is-whois"
 ---
 
 # Who is Whois — NoHackNoCTF 2026 (Web Exploitation)

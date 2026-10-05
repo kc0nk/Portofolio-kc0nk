@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Compression isn't encryption"
 flag: "dalctf{y0u_wi11_3ncrypt_4lw4y$}"
 teknik: "Huffman coding yang menyamar jadi cipher; decode pertama mengacaukan bagian tengah → tiebreaker terbalik (subtree baru menang atas leaf lama)"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Compression isn't encryption — DalCTF 2026 (Crypto)

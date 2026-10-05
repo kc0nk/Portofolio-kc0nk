@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "There Will Be Cake"
 flag: "byuctf{Th3_C4k3_!s_4_L!3_HTC56zeE}"
 teknik: "Header HTTP Cookie: cake=<base64> → decode base64"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # There Will Be Cake — BYUCTF 2026 (Forensics)

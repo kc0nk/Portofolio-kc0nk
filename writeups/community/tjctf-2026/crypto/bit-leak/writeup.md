@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "bit-leak"
 flag: "tjctf{parity_isnt_privacy}"
 teknik: "RSA parity oracle bergaya Bleichenbacher; 540 query merekonstruksi plaintext bit demi bit"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # bit-leak — TJCTF 2026 (Crypto)

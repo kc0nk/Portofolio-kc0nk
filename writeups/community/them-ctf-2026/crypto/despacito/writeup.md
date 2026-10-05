@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Despacito"
 flag: "THEM?!CTF{D3S_4774K_W3S_AW3S0M3}"
 teknik: "Kunci lemah DES yang disamarkan lewat parity bit (E1E1E1E1F0F0F0F0 ↔ E0E0E0E0F1F1F1F1); encrypt == decrypt"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # Despacito — THEM?! CTF 2026 (Crypto)

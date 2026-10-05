@@ -4,7 +4,6 @@ kategori: "Cryptography"
 challenge: "Sealed Signal"
 flag: "slopped{cbc_mac_capsule_splice_last_claim_wins}"
 teknik: "Chosen-message CBC-MAC oracle berbagi key dengan MAC resume-capsule; XOR-cancel header 16-byte tetap untuk menyambungkan MAC valid ke resume capsule role=root yang terlarang"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/crypto"
 ---
 
 # Sealed Signal — Anti-Slop CTF 2026 (Crypto, 459 poin)

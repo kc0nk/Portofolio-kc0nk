@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Hackel"
 flag: "ASIS{sEm1d!r3c7_gr0uP_pr3S3nt4T10n____k3y___r3C0verY_4TtacK!!}"
 teknik: "Kata ciphertext dicetak sebagai string mentah (bit=1 jika mengandung 'b'); verifier equivalent-key tidak pernah menyentuh conjugator rahasia, cukup diisi embedding diagonal 10-cycle + 11-cycle"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/Hackel"
 ---
 
 # Hackel — ASIS CTF Quals 2026 (Crypto, Baby)

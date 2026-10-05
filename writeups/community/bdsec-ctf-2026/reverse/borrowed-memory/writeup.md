@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Borrowed Memory"
 flag: "BDSEC{p01nt3rs_l13_bUt_0ffs3ts_r3m3mb3r}"
 teknik: "Tabel memori xorshift 0x800-byte ditambal jadi tape opcode VM 12-langkah; input user adalah rantai 12 offset, checksum-gated per-langkah, blob flag 40-byte didekripsi lewat XOR 4-sumber"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Borrowed Memory — BDSec CTF 2026 (Reverse Engineering, 460 poin)

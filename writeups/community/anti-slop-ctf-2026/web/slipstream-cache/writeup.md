@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "Slipstream Cache"
 flag: "slopped{split_parsers_make_signed_packages_liable}"
 teknik: "Differential parser TLV (signed_len vs manifest_len) berujung SSRF loopback, lalu blind RSA signature oracle atas raw digest tanpa padding untuk memforge sertifikat operator"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/web"
 ---
 
 # Slipstream Cache — Anti-Slop CTF 2026 (Web Exploitation)

@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "Corrupted Cores"
 flag: "byuctf{Th3_P4rt_Wh3r3_H3_K!lls_Y0u}"
 teknik: "Source IP yang di-spoof adalah ASCII printable yang di-base64; digabung berurutan lintas semua echo"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Corrupted Cores — BYUCTF 2026 (Forensics)

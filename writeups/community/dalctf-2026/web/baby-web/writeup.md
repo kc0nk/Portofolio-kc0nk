@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "Baby Web"
 flag: "dalctf{n0w_y0u_ar3_th3_b0ss_b4by}"
 teknik: "Atribut HTML hidden=\"true\" menyembunyikan flag dari render browser, tapi byte-nya ada di source"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Baby Web — DalCTF 2026 (Web Exploitation)

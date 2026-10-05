@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "RCaaS"
 flag: "byuctf{s3rv1c3s_c4n_b3_r3v3rs3_3ng1n33r3d_t00}"
 teknik: "Servis SUID Go; 30 persamaan multiplikatif mod-256 + 9 posisi tetap"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # RCaaS — BYUCTF 2026 (Reverse Engineering)

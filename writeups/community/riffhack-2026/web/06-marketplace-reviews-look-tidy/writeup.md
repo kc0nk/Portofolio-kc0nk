@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Marketplace Reviews Look Tidy"
 flag: "bitflag{r3v13w_0wn3r5h1p_1s_n0t_4_sugg35t10n}"
 teknik: "IDOR PUT /api/reviews/<id> tanpa cek kepemilikan; respons membocorkan kolom moderationNote server-only"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/06-web6-review-idor"
 ---
 
 # Marketplace Reviews Look Tidy — RIFFHACK 2026 (Web)

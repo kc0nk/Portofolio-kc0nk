@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Ancient Signals"
 flag: "THEM?!CTF{1mag1n3_gett1ng_r1ckr0ll3d_1n_tH3M?!C7F_xDDD}"
 teknik: "Kebocoran XOR PCM 8-bit dari region hening + hash FNV-1a atas potongan .text sebagai kunci XOR untuk flag asli"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # Ancient Signals — THEM?! CTF 2026 (Reverse Engineering)

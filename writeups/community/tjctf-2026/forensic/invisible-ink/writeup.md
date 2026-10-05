@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "invisible-ink"
 flag: "tjctf{p0lygl0t_f1les_4r3_50_c00l}"
 teknik: "Polyglot PDF+ZIP; teks putih-di-atas-putih di PDF membawa password ZIP; distorsi swirl dibalik dengan strength negatif"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # invisible-ink — TJCTF 2026 (Forensics)

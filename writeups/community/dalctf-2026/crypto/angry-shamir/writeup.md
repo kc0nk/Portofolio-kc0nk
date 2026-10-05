@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Angry Shamir"
 flag: "dalctf{sm4ll_f4ct0rs_4r3_d4ng3r0us_1n_rs4}"
 teknik: "Modulus RSA 2054-bit dengan faktor prima kecil (67); n % 67 == 0, dekripsi dengan phi = 66 * (q-1)"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Angry Shamir — DalCTF 2026 (Crypto)

@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "unfinished-file"
 flag: "tjctf{n3v3r_l3t_0ther_p30ple_t0uch_ur_c0mputer}"
 teknik: "File .crdownload Chrome; local file header ZIP self-describing walaupun central directory hilang; XOR satu-byte dengan crib"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # unfinished-file — TJCTF 2026 (Forensics)

@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Pancake Stack"
 flag: "ASIS{paNc4kE_v3_Lo5t_!t5_n4mE_8Ut___n0T___iTs_89uG!}"
 teknik: "Seed 32-bit AES-256 key + hint SHA256(seed) brute-force; collision truncated AES_k1(y||0) memaksa dua nonce berbeda memakai (ek,iv) sama → reuse keystream AES-GCM"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/PancakeStack"
 ---
 
 # Pancake Stack — ASIS CTF Quals 2026 (Crypto, Medium)

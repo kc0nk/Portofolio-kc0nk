@@ -4,7 +4,6 @@ kategori: "Crypto / Zero-Knowledge"
 challenge: "The Last Honest Witness"
 flag: "SCTF{SYC_!ntern_Ray}"
 teknik: "Empat sub-puzzle kripto (Franklin-Reiter, brute private-key kecil, collision keccak 40-bit terpotong, Fermat factoring RSA prima-berdekatan) merakit witness Groth16 Poseidon-Merkle dengan domain-separation tag-1..6"
-sumber: "https://github.com/Abdelkad3r/SCTF-2026/blob/main/last-honest-witness/README.md"
 ---
 
 # The Last Honest Witness — SCTF 2026 (Crypto / Zero-Knowledge)

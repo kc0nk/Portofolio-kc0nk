@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Fun with RSA"
 flag: "dalctf{s3gf4u17_r54_m1x3d_w17h_x0r}"
 teknik: "Script mempublikasikan signature RSA s = m^d mod n, jadi m = pow(s, e, n) memulihkan pesan dalam dua baris; jalur Bellcore fault juga berhasil sebagai alternatif"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # Fun with RSA — DalCTF 2026 (Crypto)

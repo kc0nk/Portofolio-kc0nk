@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "Kira-Notes"
 flag: "NHNC{n0w_y0u_kn0w_h0w_t0_f0r3ns1c_0x00000Easyyyyyyyyy}"
 teknik: "Firefox places.sqlite sebagai narasi kronologis → link Proton Drive → image GPT+ext4 → carving unallocated block untuk PNG & ZIP → ZIP WZ-AES dibuka dengan pyzipper"
-sumber: "https://github.com/Abdelkad3r/NoHackNoCTF-2026/tree/main/forensics/kira-notes"
 ---
 
 # Kira-Notes — NoHackNoCTF 2026 (Forensics)

@@ -4,7 +4,6 @@ kategori: "Cryptography"
 challenge: "Polynomial Drift"
 flag: "slopped{polyphase_masks_force_a_hidden_number_pivot}"
 teknik: "Kebocoran 24 bit rendah nonce ECDSA lewat preview byte VM; Hidden Number Problem diselesaikan sebagai CVP lattice dengan fpylll atas 11 signature"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/crypto"
 ---
 
 # Polynomial Drift — Anti-Slop CTF 2026 (Crypto, 443 poin)

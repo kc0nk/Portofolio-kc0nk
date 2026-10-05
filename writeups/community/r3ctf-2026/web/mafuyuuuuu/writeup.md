@@ -4,7 +4,6 @@ kategori: "Web (ASP.NET)"
 challenge: "mafuyuuuuu"
 flag: "r3ctf{0tomE_K4iBOU-d3_@so6Ou-Yo_DokidoKl-sHit@1-J@N_Ka_dare_datte_congrats_finding_the_correct_solution0}"
 teknik: "System.Random (xoshiro256**) dibagi antar endpoint post & debug ticket; pemulihan state via inversi bounded-reduction + meet-in-the-middle GF(2) atas 9 output"
-sumber: "https://github.com/Abdelkad3r/R3CTF-2026/tree/master/web/mafuyuuuuu"
 ---
 
 # mafuyuuuuu — R3CTF 2026 (Web / ASP.NET)

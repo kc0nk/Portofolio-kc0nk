@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "check-the-fine-print"
 flag: "tjctf{wow_you_actually_read_it}"
 teknik: "Byte 26 (compression method) IHDR PNG — field yang seharusnya selalu 0 — dipakai sebagai 1 bit per file di 248 PNG kecil"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # check-the-fine-print — TJCTF 2026 (Forensics)

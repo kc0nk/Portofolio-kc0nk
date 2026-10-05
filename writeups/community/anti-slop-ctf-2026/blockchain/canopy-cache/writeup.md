@@ -4,7 +4,6 @@ kategori: "Blockchain (Bridge Protocol, bukan EVM)"
 challenge: "Canopy Cache"
 flag: "slopped{packbits_lookup_routes_rethread_the_owner_lane}"
 teknik: "TOCTOU antar dua validator; dekompresi PackBits lolos cek panjang-input tapi menimpa bind table setelah bind tervalidasi, mengalihkan route ke image yang dikontrol attacker"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/blockchain"
 ---
 
 # Canopy Cache — Anti-Slop CTF 2026 (Blockchain, 490 poin)

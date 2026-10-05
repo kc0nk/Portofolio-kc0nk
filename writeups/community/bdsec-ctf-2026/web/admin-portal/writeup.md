@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Admin Portal"
 flag: "bdsec{n0ne_4lg_m34ns_n0_s1gn4tur3}"
 teknik: "Server membaca algoritma JWT dari header client-controlled; forge token alg:none dengan role=admin, tanpa signature apa pun"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Admin Portal — BDSec CTF 2026 (Web, 50 poin)

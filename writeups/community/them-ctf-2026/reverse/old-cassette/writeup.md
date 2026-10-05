@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Old Cassette"
 flag: "THEM?!CTF{0LD_T4P3_N3V3R_D1E5K7}"
 teknik: "ROM CHIP-8; state-machine 16-bit masuk ke short cycle (tail 329, cycle 34), 32 ronde melukis flag ke layar"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # Old Cassette — THEM?! CTF 2026 (Reverse Engineering)

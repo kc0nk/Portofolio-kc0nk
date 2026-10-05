@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "The Trusting Verifier"
 flag: "bitflag{ssrf_1s_4_p4rty_cr4sh3r}"
 teknik: "SSRF tanpa allow-list pada /api/vendor/verify-website menjangkau IMDS AWS tiruan di 169.254.169.254"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/10-the-trusting-verifier"
 ---
 
 # The Trusting Verifier — RIFFHACK 2026 (Web)

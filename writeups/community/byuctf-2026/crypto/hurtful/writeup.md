@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Hurtful"
 flag: "byuctf{cuz_st3r30typ3s_hurt_92de04}"
 teknik: "RSA e=3 dengan prefix known 122-byte → pemulihan small-root Howgrave-Graham/Coppersmith"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Hurtful — BYUCTF 2026 (Crypto)

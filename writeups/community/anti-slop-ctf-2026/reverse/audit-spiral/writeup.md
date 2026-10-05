@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Audit Spiral"
 flag: "slopped{quadratic_capsules_unlock_the_attestor}"
 teknik: "Nonce ECDSA berbentuk polinomial kuadratik dalam index signing (k_i = c0+c1·i+c2·i²); dipulihkan sebagai sistem linier 4×4 mod group order dengan 4 signature"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/reverse"
 ---
 
 # Audit Spiral — Anti-Slop CTF 2026 (Reverse Engineering, 500 poin)

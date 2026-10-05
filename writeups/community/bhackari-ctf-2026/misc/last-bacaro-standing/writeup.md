@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "Last Bacaro Standing"
 flag: "bhackariCTF{m4k3_b4cAr1_gr3at_4ga1n}"
 teknik: "Stego LSB berkunci-seed dengan urutan shuffle random.seed; seed adalah nama bacaro (aciugheta) yang tertulis di kanopi foto carrier"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Last Bacaro Standing — BhAcKAri CTF 2026 (Misc)

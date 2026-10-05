@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "2048"
 flag: "ASIS{t0McAT_was_Th3_KEY}"
 teknik: "Diagnostics JSP X-Forwarded-For spoof → Tomcat 9.0.116 CVE-2026-34486 (EncryptInterceptor meneruskan plaintext saat dekripsi gagal) → ysoserial CommonsCollections6 dibungkus frame Tribes FLT2002/TLF2003"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Web/2048"
 ---
 
 # 2048 — ASIS CTF Quals 2026 (Web, Hard)

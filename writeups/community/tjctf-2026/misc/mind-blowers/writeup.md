@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "mind-blowers"
 flag: "tjctf{bl0ckl1st5_4r3_n0t_s4f3_3v3n_f0r_r1ck}"
 teknik: "Pickle escape via __loader__ yang tidak ada di denylist find_class; opcode pickle manual untuk pivot ke os.popen"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # mind-blowers — TJCTF 2026 (Misc)

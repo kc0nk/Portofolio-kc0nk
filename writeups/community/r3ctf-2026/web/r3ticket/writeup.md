@@ -4,7 +4,6 @@ kategori: "Web (Python)"
 challenge: "r3ticket"
 flag: "r3ctf{H0pE_y0u_1ovE-THIS_tICKet-SErlEs-XD58c5c}"
 teknik: "Helper Lagrange interpolation get_num(nums, index) dievaluasi di index negatif besar; decode base-K balanced-remainder memberi 128 persamaan linier dari satu query oracle"
-sumber: "https://github.com/Abdelkad3r/R3CTF-2026/tree/master/web/r3ticket"
 ---
 
 # r3ticket — R3CTF 2026 (Web / Python)

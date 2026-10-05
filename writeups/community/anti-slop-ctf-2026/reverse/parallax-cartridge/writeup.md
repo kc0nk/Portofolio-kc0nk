@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Parallax Cartridge"
 flag: "slopped{quiet_tracks_hide_in_hash_padded_resume_tapes}"
 teknik: "Byte record quiet menggeser index program final cartridge runner ke bank dictionary tersembunyi yang tidak dicek audit; digabung dengan prefix MAC SHA256(secret||body) rentan SHA-256 length extension"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/reverse"
 ---
 
 # Parallax Cartridge — Anti-Slop CTF 2026 (Reverse Engineering, 355 poin)

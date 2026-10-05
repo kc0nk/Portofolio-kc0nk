@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "riscal"
 flag: "midnight{RISCV_1S_4_34zy_1S4_70_unDeRst4Nd!!}"
 teknik: "ELF RISC-V 64-bit yang memvalidasi input terhadap string hardcoded di .rodata; cukup diselesaikan dengan strings | grep"
-sumber: "https://github.com/Abdelkad3r/midnight-sun-ctf-2026-quals/tree/main/riscal"
 ---
 
 # riscal — Midnight Sun CTF 2026 Quals (Reverse Engineering)

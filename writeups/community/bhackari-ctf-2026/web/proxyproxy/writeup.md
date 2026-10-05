@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Proxyproxy (nothing here pt. 2)"
 flag: "bhackariCTF{ed7b8baf6bd6341f194a95394c1acd314cee7871de0eb67c}"
 teknik: "lighttpd url.access-deny hanya suffix-match HTTP request line; HTTP CONNECT / adalah verb tunneling yang membuka TCP tunnel langsung ke backend Flask"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Proxyproxy (nothing here pt. 2) — BhAcKAri CTF 2026 (Web)

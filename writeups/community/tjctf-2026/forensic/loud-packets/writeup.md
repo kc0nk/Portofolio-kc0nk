@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "loud-packets"
 flag: "tjctf{v3ry_l0ud_pc4p_f1le}"
 teknik: "Bukan PCAP sama sekali — image raksasa yang tiap tile-nya adalah versi downscale sprite anime, rendering bitmap-font dari flag"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # loud-packets — TJCTF 2026 (Forensics)

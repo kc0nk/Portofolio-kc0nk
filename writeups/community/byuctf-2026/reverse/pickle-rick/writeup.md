@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Pickle Rick"
 flag: "byuctf{1m_p1ckl3_r1111ck!}"
 teknik: "Token rick/pickle → bit → byte di-XOR 0x67 → ELF yang .rodata-nya membawa flag"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Pickle Rick — BYUCTF 2026 (Reverse Engineering)

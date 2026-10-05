@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "HEuristic"
 flag: "r3ctf{H3URistIC-De1T@-15-H1dDen-iN-fu1LY_h0mom0rPh1C_encryption_schemes0}"
 teknik: "Server Microsoft SEAL CKKS membocorkan 96 koefisien dengan noise 188-bit di atas modulus 240-bit; 95 persamaan modular approximate + filter baseline-noise memulihkan delta"
-sumber: "https://github.com/Abdelkad3r/R3CTF-2026/tree/master/crypto/HEuristic"
 ---
 
 # HEuristic — R3CTF 2026 (Crypto)

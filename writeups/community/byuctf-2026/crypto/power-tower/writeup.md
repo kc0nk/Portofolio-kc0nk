@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Power Tower"
 flag: "byuctf{eulers_phi_phunction_is_a_phun_phunction}"
 teknik: "Multi-prime RSA (25 × 16-bit) dengan exponent tower right-associative 25-tingkat → reduksi rekursif Euler-φ"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Power Tower — BYUCTF 2026 (Crypto)

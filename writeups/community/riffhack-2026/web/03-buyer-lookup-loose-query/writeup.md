@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Buyer Lookup Loose Query"
 flag: "bitflag{1nj3ct10n_turn5_4_l00kup_1nt0_4_l34k}"
 teknik: "SQL string-concatenated pada /api/orders/lookup?ref=...; UNION SELECT jadi primitive dump-DB universal untuk sisa event"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/03-web3-sqli-orders-lookup"
 ---
 
 # Buyer Lookup Loose Query — RIFFHACK 2026 (Web)

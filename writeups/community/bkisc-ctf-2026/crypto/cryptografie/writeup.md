@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Cryptografie"
 flag: "plfanzen{w3Ll_D0N3,_0R_Sh0Uld_1_R4Th3R_S4Y_V2VsbCBkb29uZQ==}"
 teknik: "Membalik encoding Java AltBase64 milik FileSystemPreferences yang diterapkan di atas byte UTF-16 BE"
-sumber: "https://github.com/Abdelkad3r/bkisc-ctf-2026/tree/main/Cryptografie"
 ---
 
 # Cryptografie — BKISC CTF 2026 (Crypto)

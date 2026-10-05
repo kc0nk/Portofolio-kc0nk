@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "labyrinth"
 flag: "boroCTF{es4@pe_wA5_1nev!table}"
 teknik: "Maze acak yang fungsi hope()-nya menjalankan marshal.loads atas hasil LCG-XOR(sequence, mod); brute-force 10.000 nilai mod dengan pre-filter di marker 0xE3"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # labyrinth — boroCTF 2026 (Reverse Engineering)

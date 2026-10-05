@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "sus-box"
 flag: "byuctf{if_you_used_a_llm_youre_missing_out_learning_a_really_cool_attack_!}"
 teknik: "Cipher 1-round XOR-Sbox-XOR dengan k1 = MD5(k0); brute-force byte per-posisi lewat XOR dua blok"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # sus-box — BYUCTF 2026 (Crypto)

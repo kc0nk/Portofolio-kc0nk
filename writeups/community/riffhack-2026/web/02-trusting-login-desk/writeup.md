@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "The Trusting Login Desk"
 flag: "bitflag{tru5t3d_r3d1r3cts_c4n_c4rry_s3cr3ts}"
 teknik: "Open redirect pada GET /api/auth/complete?next=<URL> menambahkan ?handoff=<secret> ke URL milik attacker"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/02-web2-open-redirect"
 ---
 
 # The Trusting Login Desk — RIFFHACK 2026 (Web)

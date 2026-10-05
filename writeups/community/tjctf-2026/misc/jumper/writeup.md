@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "jumper"
 flag: "tjctf{PAST_THE_WALL}"
 teknik: "Godot 4.6 PCK dengan directory offset di slot baru + entry offset relatif file_base 0x70; 8 dari 56 ColorRect punya rotasi/scale non-default"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # jumper — TJCTF 2026 (Misc)

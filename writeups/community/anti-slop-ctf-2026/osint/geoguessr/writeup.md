@@ -4,7 +4,6 @@ kategori: "OSINT"
 challenge: "Geoguessr"
 flag: "slopped{h0w_d0_agent5_sl0p_nmpz?}"
 teknik: "Client-side crypto mengubah tebakan lokasi jadi H3 resolution-8 cell → kunci Argon2id → dekripsi Shamir share; kumpulkan 9 dari 10 share untuk rekonstruksi kunci AES master"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/osint"
 ---
 
 # Geoguessr — Anti-Slop CTF 2026 (OSINT, 487 poin)

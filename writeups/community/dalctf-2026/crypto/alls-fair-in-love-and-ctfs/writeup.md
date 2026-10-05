@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "All's Fair in Love and CTFs"
 flag: "dalctf{ANYTHINGFORTHEFLAG}"
 teknik: "Playfair dengan kotak alfabet POLOS (tanpa scramble keyword); jebakan format flag — plaintext huruf besar mentah, bukan lowercase-underscore"
-sumber: "https://github.com/Abdelkad3r/dalctf-2026"
 ---
 
 # All's Fair in Love and CTFs — DalCTF 2026 (Crypto)

@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Easy RE Challenge"
 flag: "BDSEC{e4SY_r3v3rS3_eNg1N33r1nG_cH4LL4ng3}"
 teknik: "ELF x86-64 unstripped dengan 4 cabang panjang-input; hanya cabang 41-byte asli, transform XOR+rol+aditif+permutasi dibalik dari expected buffer tertanam"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Easy RE Challenge — BDSec CTF 2026 (Reverse Engineering, 80 poin)

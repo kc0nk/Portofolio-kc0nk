@@ -4,7 +4,6 @@ kategori: "Reverse"
 challenge: "polaroid"
 flag: "tjctf{develop_the_picture}"
 teknik: "Password tertanam di Mach-O ARM64 + XOR blob const dengan password sebagai keystream berulang → PNG tercermin horizontal"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # polaroid — TJCTF 2026 (Reverse)

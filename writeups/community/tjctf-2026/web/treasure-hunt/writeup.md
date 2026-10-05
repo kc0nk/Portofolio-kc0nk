@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Treasure Hunt"
 flag: "tjctf{s1lv3r_and_g0ld}"
 teknik: "Triad recon klasik: view-source, POST → cookie, /robots.txt"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # Treasure Hunt — TJCTF 2026 (Web)

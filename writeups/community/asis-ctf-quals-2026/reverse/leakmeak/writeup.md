@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "LeakMeAk"
 flag: "ASIS{haaducrcplmekhylrozcxyxzuizs}"
 teknik: "Hash non-injective H=word*0x9e3779b9 XOR mix; 7 persamaan siklik diselesaikan z3, Unicorn sebagai oracle eksak untuk state machine mix, DFS atas kandidat kecil"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Reverse/LeakMeAk"
 ---
 
 # LeakMeAk — ASIS CTF Quals 2026 (Reverse Engineering, Medium)

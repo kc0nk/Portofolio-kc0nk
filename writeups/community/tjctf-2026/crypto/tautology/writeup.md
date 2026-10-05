@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "TAUtology"
 flag: "tjctf{w0rth_th3_w41t_6283185_zzz}"
 teknik: "ReDoS catastrophic backtracking dipakai sebagai side-channel maju (binary-search oracle atas timeout)"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # TAUtology — TJCTF 2026 (Crypto)

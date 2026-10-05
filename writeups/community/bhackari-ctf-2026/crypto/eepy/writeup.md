@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Eepy"
 flag: "bhackariCTF{w0w_y0u_c4n_r34lly_sm1th}"
 teknik: "RSA-2048 membocorkan 600 bit teratas prima p; 424 bit sisanya < N^(1/4) → Coppersmith small-roots via lattice Howgrave-Graham"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Eepy — BhAcKAri CTF 2026 (Crypto)

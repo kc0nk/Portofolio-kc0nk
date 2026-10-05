@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "kittiessss"
 flag: "byuctf{y0u_m4d3_k1tty_h4ppy}"
 teknik: "Prototype pollution Python lewat __class__ → to_dict.__globals__ → menyetel give_flag=True"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # kittiessss — BYUCTF 2026 (Web Exploitation)

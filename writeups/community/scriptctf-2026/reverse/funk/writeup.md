@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "F**K"
 flag: "scriptCTF{t1mm1ng_s1d$_ch@nn31}"
 teknik: "Program Brainfuck 28.786-byte; 31 pengecekan byte aljabar (input += C; temp = A*K+B; input -= temp) tersembunyi di balik noise visual; flag hidup di jumlah iterasi loop [-], bukan di output"
-sumber: "https://github.com/Abdelkad3r/scriptCTF-2026/tree/main/reverse/funk"
 ---
 
 # F\*\*K — scriptCTF 2026 (Reverse Engineering, 454 poin)

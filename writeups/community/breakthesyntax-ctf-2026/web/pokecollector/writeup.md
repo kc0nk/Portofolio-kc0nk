@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "Pokecollector"
 flag: "BtSCTF{g1t_g0tt4_c4tch_3m_4ll}"
 teknik: "IDOR lewat JWT yang menerbitkan-ulang dirinya sendiri; pokemon_id yang disuplai client diterima tanpa allow-list, nama server-side yang dikembalikan saat baca adalah flag-nya"
-sumber: "https://github.com/Abdelkad3r/BreakTheSyntax-ctf-2026/blob/main/Pokecollector.md"
 ---
 
 # Pokecollector — BreakTheSyntax CTF 2026 (Web Exploitation)

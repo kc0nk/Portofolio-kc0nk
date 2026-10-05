@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "BhAcKAri Streaming Service"
 flag: "bhackariCTF{c0m3_0n_n0w_wh0_do35nt_h4t3_r3d1r3ct5?}"
 teknik: "JS ter-obfuskasi ROT-14 membocorkan kunci AES-256-CBC C2; whitelist shell sed dilewati dengan '?' sebagai shell glob"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # BhAcKAri Streaming Service — BhAcKAri CTF 2026 (Web)

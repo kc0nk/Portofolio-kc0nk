@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "Mic Check"
 flag: "ASIS{f4r3w3ll_cl4ss1c_h3ll0_unc3rt41n_3r4!}"
 teknik: "Decoder font seven-segment ASCII custom; baris top-segment yang melenceng 1-2 kolom diatasi dengan memperlakukannya sebagai hitungan (count), bukan posisi"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Misc/MicCheck"
 ---
 
 # Mic Check — ASIS CTF Quals 2026 (Misc, Baby)

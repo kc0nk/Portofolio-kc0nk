@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "free-cloud-storage"
 flag: "tjctf{i_l0v3_fr33_st0r4g3}"
 teknik: "Zip Slip pada chumper/zipper 1.0.2 (extractTo() tidak resolve path) → webshell"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # free-cloud-storage — TJCTF 2026 (Web)

@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "The Proof Locker"
 flag: "bitflag{pr00f_p4ths_5h0uld_st4y_1n_b0unds}"
 teknik: "Path traversal di /api/reviews/proof?proof=...; flag disamarkan di field GECOS user sintetis di /etc/passwd"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/11-the-proof-locker"
 ---
 
 # The Proof Locker — RIFFHACK 2026 (Web)

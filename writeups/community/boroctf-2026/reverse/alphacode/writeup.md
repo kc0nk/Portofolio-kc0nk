@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "AlphaCode"
 flag: "boroCTF{r3verse_by_guessncheck}"
 teknik: "DSL kustom dengan enam opcode; aturan parser 'satu zm per program' sebenarnya adalah 'satu fungsi terbuka dalam satu waktu', sehingga bisa menumpuk banyak literal di queue lalu digabung sesuai template gauntlet"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # AlphaCode — boroCTF 2026 (Reverse Engineering)

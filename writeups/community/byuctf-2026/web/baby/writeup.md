@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "baby"
 flag: "byuctf{s33_1t5_3asy!}"
 teknik: "Stored XSS — field message dirender mentah; bot admin headless membocorkan document.body"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # baby — BYUCTF 2026 (Web Exploitation)

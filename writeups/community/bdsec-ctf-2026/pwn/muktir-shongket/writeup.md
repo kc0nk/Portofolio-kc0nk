@@ -4,7 +4,6 @@ kategori: "Pwn (Binary Exploitation)"
 challenge: "Muktir Shongket"
 flag: "BDSEC{mukt1r_5h0ngk3t_r34ch3d_th3_f13ld}"
 teknik: "Verifier tidak menelusuri target ROUTE, executor menerjemahkannya jadi jmp rel32 x86; ROUTE +2 melompat ke tengah literal SIGNAL yang jadi mov eax,0x401bb0; call rax; ret"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Muktir Shongket — BDSec CTF 2026 (Pwn, 100 poin)

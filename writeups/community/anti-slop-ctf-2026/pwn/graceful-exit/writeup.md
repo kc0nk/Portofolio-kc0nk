@@ -4,7 +4,6 @@ kategori: "Pwn (Binary Exploitation)"
 challenge: "Graceful Exit"
 flag: "slopped{previewed_offsets_can_reseal_reports}"
 teknik: "Back-reference bertanda-negatif di VIEW preview membocorkan pointer flag; overwrite objek plan 0x80-byte lewat copy nama simbol SYMS record mengalihkan fetch ke pointer bocoran"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/pwn"
 ---
 
 # Graceful Exit — Anti-Slop CTF 2026 (Pwn)

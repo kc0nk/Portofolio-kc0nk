@@ -4,7 +4,6 @@ kategori: "OSINT"
 challenge: "Observers Are All You Need"
 flag: "slopped{OPH_is_a_rec0nstructi0n_pr0gram_f0r_funD4mentaL_phys1cs}"
 teknik: "Pivot dari prompt kriptik ke project GitHub spesifik, lalu telusuri jejak artefak (profil, issue, PR) satu akun kontributor untuk merangkai 3 fragmen flag"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/osint"
 ---
 
 # Observers Are All You Need — Anti-Slop CTF 2026 (OSINT, 443 poin)

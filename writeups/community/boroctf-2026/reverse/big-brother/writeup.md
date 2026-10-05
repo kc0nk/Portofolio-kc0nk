@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "big_brother"
 flag: "boroCTF{AHK_1s_lIs+eni4g}"
 teknik: "PE hasil kompilasi AutoHotkey; script tertanam sebagai RCDATA dan memakai hotstring trigger yang di-concatenate lewat Chr()"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # big_brother — boroCTF 2026 (Reverse Engineering)

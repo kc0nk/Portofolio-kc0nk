@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "password_protected"
 flag: "boroCTF{I_H8_M@7ing_StR1ng5_cHals}"
 teknik: "movabsq password tersusun + loop deobfuskasi XOR-7 di ELF stripped; gerbang strcmp cuma dekorasi"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # password_protected — boroCTF 2026 (Reverse Engineering)

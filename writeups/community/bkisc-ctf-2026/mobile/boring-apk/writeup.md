@@ -4,7 +4,6 @@ kategori: "Mobile (Android Reverse)"
 challenge: "Boring APK"
 flag: "BKISC{4nd0rid_m4z3_s0lving}"
 teknik: "Dekripsi asset AES-GCM dari binary NDK, jalankan .so standalone lewat qemu-aarch64, lalu pecahkan graph-walk 27 langkah dengan meet-in-the-middle"
-sumber: "https://github.com/Abdelkad3r/bkisc-ctf-2026/tree/main/boring-apk"
 ---
 
 # Boring APK — BKISC CTF 2026 (Mobile / Android Reverse)

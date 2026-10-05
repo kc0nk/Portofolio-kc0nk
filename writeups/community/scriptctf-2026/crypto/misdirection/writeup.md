@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Misdirection"
 flag: "scriptCTF{notwhatitseems}"
 teknik: "115 bit habis dibagi 5 (bukan 8) → 23 grup 5-bit → hanya bermakna di bawah alfabet Bacon's cipher ASLI 24-huruf (I/J dan U/V berbagi simbol), bukan pemetaan 26-huruf modern"
-sumber: "https://github.com/Abdelkad3r/scriptCTF-2026/tree/main/crypto/misdirection"
 ---
 
 # Misdirection — scriptCTF 2026 (Crypto, 160 poin)

@@ -4,7 +4,6 @@ kategori: "Reverse Engineering / Misc"
 challenge: "empols"
 flag: "midnight{y0u_4r3_th3_m4st3r_0f_sl0ps0lv3s}"
 teknik: "Server memberikan 20 ELF x86-64 hasil generate acak dari 3 template; deteksi template dengan radare2 lalu ekstrak jawaban otomatis lewat static analysis"
-sumber: "https://github.com/Abdelkad3r/midnight-sun-ctf-2026-quals/tree/main/empols"
 ---
 
 # empols — Midnight Sun CTF 2026 Quals (Reverse Engineering / Automation)

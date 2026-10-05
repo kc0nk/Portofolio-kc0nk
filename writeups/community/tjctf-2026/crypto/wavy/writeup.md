@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "wavy"
 flag: "tjctf{ch3bysh3v_p0lyn0m1!l_676767}"
 teknik: "Keystream dari polinomial Chebyshev T_n(x) mod prima secp256k1; recurrence linier 2-suku dieksponensiasi lewat matriks"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # wavy — TJCTF 2026 (Crypto)

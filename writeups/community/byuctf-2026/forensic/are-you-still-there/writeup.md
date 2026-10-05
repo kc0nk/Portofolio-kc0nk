@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "Are You Still There?"
 flag: "byuctf{Turr3t_R3d3mpt!0n_L!n3s_4r3_N0t_R!d3s}"
 teknik: "Payload ICMP echo membawa 4 byte flag masing-masing"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Are You Still There? — BYUCTF 2026 (Forensics)

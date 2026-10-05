@@ -512,4 +512,39 @@ document.querySelectorAll('[data-cyberleague-cat]').forEach(btn => btn.addEventL
   if (info) info.innerHTML = `<strong>${visible}</strong><span>challenge write-ups archived</span><p>Setiap challenge mempunyai folder dan file <code>writeup.md</code> sendiri.</p>`;
 }));
 document.querySelectorAll('.cyberleague-challenges .writeup-open').forEach(link => link.addEventListener('click', e => e.stopPropagation()));
-\n\n// Community CTF write-up collection\n(async function initCommunityArchive(){\n  const card=document.querySelector('#communityEventCard');\n  const modal=document.querySelector('#communityModal');\n  const cats=document.querySelector('#communityCats');\n  const grid=document.querySelector('#communityChallenges');\n  const info=document.querySelector('#communityInfo');\n  if(!card || !modal || !cats || !grid) return;\n  let manifest=[];\n  try {\n    const res=await fetch('writeups/community-manifest.json',{cache:'no-store'});\n    if(!res.ok) throw new Error('manifest '+res.status);\n    manifest=await res.json();\n  } catch(err){\n    grid.innerHTML='<p class="md-error">Unable to load community write-up index.</p>';\n    return;\n  }\n  const labels={forensic:'FORENSICS',reverse:'REVERSE',crypto:'CRYPTO',web:'WEB',pwn:'PWN',misc:'MISC',osint:'OSINT',blockchain:'BLOCKCHAIN',mobile:'MOBILE',steganography:'STEGANOGRAPHY',boot2root:'BOOT2ROOT',development:'DEVELOPMENT'};\n  const categories=['all',...new Set(manifest.map(x=>x.category))];\n  cats.innerHTML=categories.map(c=>`<button class="brunner-cat ${c==='all'?'active':''}" data-community-cat="${escapeHtml(c)}">${c==='all'?'ALL':(labels[c]||c.toUpperCase())}</button>`).join('');\n  function render(filter='all'){\n    const rows=filter==='all'?manifest:manifest.filter(x=>x.category===filter);\n    grid.innerHTML=rows.map(x=>`<article class="pwnsec-challenge community-challenge" data-cat-item="${escapeHtml(x.category)}"><span class="badge ${escapeHtml(x.category)}">${escapeHtml(labels[x.category]||x.category.toUpperCase())}</span><h4>${escapeHtml(x.title)}</h4><p><strong>${escapeHtml(x.event)}</strong><br>${escapeHtml(x.description)}</p><a href="${escapeHtml(x.path)}" class="writeup-open" data-md="${escapeHtml(x.path)}" data-title="${escapeHtml(x.title)}">OPEN WRITEUP ↗</a></article>`).join('');\n    if(info) info.innerHTML=`<strong>${rows.length}</strong><span>challenge write-ups archived</span><p>${filter==='all'?'Semua event dan kategori.':`Filter kategori: <code>${escapeHtml(labels[filter]||filter)}</code>`}</p>`;\n    grid.querySelectorAll('.writeup-open').forEach(link=>link.addEventListener('click',e=>e.stopPropagation()));\n  }\n  render();\n  cats.addEventListener('click',e=>{const b=e.target.closest('[data-community-cat]');if(!b)return;cats.querySelectorAll('.brunner-cat').forEach(x=>x.classList.toggle('active',x===b));render(b.dataset.communityCat);});\n  const open=()=>{modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');};\n  const close=()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');};\n  card.addEventListener('click',e=>{if(!e.target.closest('a'))open();});\n  card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});\n  document.querySelectorAll('[data-close-community]').forEach(x=>x.addEventListener('click',close));\n})();\n
+
+
+// Community CTF write-up collection
+(async function initCommunityArchive(){
+  const card=document.querySelector('#communityEventCard');
+  const modal=document.querySelector('#communityModal');
+  const cats=document.querySelector('#communityCats');
+  const grid=document.querySelector('#communityChallenges');
+  const info=document.querySelector('#communityInfo');
+  if(!card || !modal || !cats || !grid) return;
+  let manifest=[];
+  try {
+    const res=await fetch('writeups/community-manifest.json',{cache:'no-store'});
+    if(!res.ok) throw new Error('manifest '+res.status);
+    manifest=await res.json();
+  } catch(err){
+    grid.innerHTML='<p class="md-error">Unable to load community write-up index.</p>';
+    return;
+  }
+  const labels={forensic:'FORENSICS',reverse:'REVERSE',crypto:'CRYPTO',web:'WEB',pwn:'PWN',misc:'MISC',osint:'OSINT',blockchain:'BLOCKCHAIN',mobile:'MOBILE',steganography:'STEGANOGRAPHY',boot2root:'BOOT2ROOT',development:'DEVELOPMENT'};
+  const categories=['all',...new Set(manifest.map(x=>x.category))];
+  cats.innerHTML=categories.map(c=>`<button class="brunner-cat ${c==='all'?'active':''}" data-community-cat="${escapeHtml(c)}">${c==='all'?'ALL':(labels[c]||c.toUpperCase())}</button>`).join('');
+  function render(filter='all'){
+    const rows=filter==='all'?manifest:manifest.filter(x=>x.category===filter);
+    grid.innerHTML=rows.map(x=>`<article class="pwnsec-challenge community-challenge" data-cat-item="${escapeHtml(x.category)}"><span class="badge ${escapeHtml(x.category)}">${escapeHtml(labels[x.category]||x.category.toUpperCase())}</span><h4>${escapeHtml(x.title)}</h4><p><strong>${escapeHtml(x.event)}</strong><br>${escapeHtml(x.description)}</p><a href="${escapeHtml(x.path)}" class="writeup-open" data-md="${escapeHtml(x.path)}" data-title="${escapeHtml(x.title)}">OPEN WRITEUP ↗</a></article>`).join('');
+    if(info) info.innerHTML=`<strong>${rows.length}</strong><span>challenge write-ups archived</span><p>${filter==='all'?'Semua event dan kategori.':`Filter kategori: <code>${escapeHtml(labels[filter]||filter)}</code>`}</p>`;
+    grid.querySelectorAll('.writeup-open').forEach(link=>link.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();openMarkdown(link.dataset.md,link.dataset.title);}));
+  }
+  render();
+  cats.addEventListener('click',e=>{const b=e.target.closest('[data-community-cat]');if(!b)return;cats.querySelectorAll('.brunner-cat').forEach(x=>x.classList.toggle('active',x===b));render(b.dataset.communityCat);});
+  const open=()=>{modal.classList.add('open');modal.setAttribute('aria-hidden','false');document.body.classList.add('modal-open');};
+  const close=()=>{modal.classList.remove('open');modal.setAttribute('aria-hidden','true');document.body.classList.remove('modal-open');};
+  card.addEventListener('click',e=>{if(!e.target.closest('a'))open();});
+  card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();open();}});
+  document.querySelectorAll('[data-close-community]').forEach(x=>x.addEventListener('click',close));
+})();

@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Eyes Chico"
 flag: "THEM?!CTF{R3V3R53_3X3CU710N_VM_W17H_MU7471NG_R3G1573R5_4ND_C0N7R0L_FL0W_FL4773N1NG_M4K35_57471C_4N4LY515_P41NFUL}"
 teknik: "VM dengan control-flow flattening dan state dispatch yang mutasi sendiri; diselesaikan lewat emulasi dinamis dengan Unicorn"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # Eyes Chico — THEM?! CTF 2026 (Reverse Engineering)

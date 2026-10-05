@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "Horses"
 flag: "bhackariCTF{C0rr1C4vall0o0!1!1!1}"
 teknik: "Sandbox d8 ter-patch masih mengekspos eval secara global; bug credits tak-tervalidasi + shop item 'Terminal' membuka shell eval untuk membaca const global"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Horses — BhAcKAri CTF 2026 (Misc)

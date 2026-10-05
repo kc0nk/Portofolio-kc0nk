@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Yet Another Recursive Algorithm"
 flag: "byuctf{why_do3s_yara_st4nd_f0r_th4t???}"
 teknik: "Constraint condition milik rule YARA (byte literal + assert integer-at-offset) dipakai sebagai constraint solver mundur"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # Yet Another Recursive Algorithm — BYUCTF 2026 (Reverse Engineering)

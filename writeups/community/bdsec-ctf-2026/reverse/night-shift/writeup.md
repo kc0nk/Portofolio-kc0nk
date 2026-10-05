@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Night Shift"
 flag: "BDSEC{0rd3r_h1d3s_b3tw33n_th3_l1n3s}"
 teknik: "5 worker pthread didispatch oleh 8-token 'shift code'; brute-force 5^8=390.625 urutan di Python menemukan satu schedule unik yang cocok 4 target state 32-bit + FNV hash"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Night Shift — BDSec CTF 2026 (Reverse Engineering, 100 poin)

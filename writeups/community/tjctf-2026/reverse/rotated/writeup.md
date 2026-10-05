@@ -4,7 +4,6 @@ kategori: "Reverse"
 challenge: "rotated"
 flag: "tjctf{b45h_d3bu6_m4573r}"
 teknik: "Empat layer bertumpuk: byte rotation → UPX → bash terobfuskasi → base64+gzip; flag ada di komentar source script"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # rotated — TJCTF 2026 (Reverse)

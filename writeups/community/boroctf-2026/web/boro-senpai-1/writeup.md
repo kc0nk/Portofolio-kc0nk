@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "boro-senpai 1"
 flag: "boroCTF{3l_psY_c0ngR00!}"
 teknik: "IDOR di /profile/<username>; OSINT kanon mengidentifikasi handle Makise Kurisu, lalu route mengembalikan profilnya tanpa cek otorisasi"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # boro-senpai 1 — boroCTF 2026 (Web Exploitation)

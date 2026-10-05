@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "minervas-stopwatch"
 flag: "tjctf{m1n3rv4_h34rd_th3_n0nc3_tick}"
 teknik: "Kebocoran timing ECDSA P-256 (Minerva, CVE-2019-15809) — leading zero bit nonce terlewat; HNP lattice + LLL"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # minervas-stopwatch — TJCTF 2026 (Crypto)

@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "Cake (Minecraft datapack)"
 flag: "bhackariCTF{_c4n_i_h4v3_4_sl1c3_}"
 teknik: "Vigenère aditif 63-simbol dikunci empat integer UUID player; twist floor-mod (semantik Python, bukan truncated-mod Java)"
-sumber: "https://github.com/Abdelkad3r/bhackari-ctf-2026"
 ---
 
 # Cake (Minecraft datapack) — BhAcKAri CTF 2026 (Misc)

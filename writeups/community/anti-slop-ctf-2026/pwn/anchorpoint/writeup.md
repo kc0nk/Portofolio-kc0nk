@@ -4,7 +4,6 @@ kategori: "Pwn (Binary Exploitation)"
 challenge: "Anchorpoint"
 flag: "slopped{shadow_quote_ghash_rootcapsule}"
 teknik: "Rantai 5-tahap: overflow VM 4-byte membuka gate state → nonce ECDSA affine bocor → BIP340 shadow proof → nonce reuse GCM membocorkan H dan E_K(J0) → forge tag root capsule"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/pwn"
 ---
 
 # Anchorpoint — Anti-Slop CTF 2026 (Pwn, 448 poin)

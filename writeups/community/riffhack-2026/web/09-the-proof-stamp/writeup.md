@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "The Proof Stamp"
 flag: "bitflag{md5_1s_br0k3n_l1k3_my_h34rt}"
 teknik: "\"Integrity check\" cuma MD5 dari nama file itu sendiri; server men-stamp konstanta flag ke fileHash tiap submission diterima"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/09-the-proof-stamp"
 ---
 
 # The Proof Stamp — RIFFHACK 2026 (Web)

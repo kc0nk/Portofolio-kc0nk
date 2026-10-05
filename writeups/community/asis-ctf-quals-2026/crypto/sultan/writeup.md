@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Sultan"
 flag: "ASIS{cORrup7_qu0ruM_rEu5e_!n_l4sT_ASIS_CTF!!}"
 teknik: "Module-LWE dengan hint floor(inner(A,u)/65000) berdampingan v=u+c·s; substitusi u=v-c·s mengubah tiap hint jadi constraint linier 7-bit pada s; Bai-Galbraith embedding + BKZ-30"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/Sultan"
 ---
 
 # Sultan — ASIS CTF Quals 2026 (Crypto, Medium-Hard)

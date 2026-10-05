@@ -4,7 +4,6 @@ kategori: "Misc"
 challenge: "Baby Maths"
 flag: "slopped{http://178.105.199.41:23333}"
 teknik: "Otomasi aritmetika 100-soal via TCP socket; salah satu soal adalah prompt-injection yang mencoba mengelabui solver berbasis LLM untuk mengekspos OpenAI API key lokal"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/misc/baby-maths"
 ---
 
 # Baby Maths — Anti-Slop CTF 2026 (Misc, 284 poin)

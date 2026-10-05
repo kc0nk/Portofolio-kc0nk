@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "squares"
 flag: "tjctf{m4tr1c3s_4r3_4ll_y0u_n33d}"
 teknik: "Titik stasioner bentuk kuadratik H(x)=xᵀMx−2cᵀx → sistem linier mod 257, diselesaikan Gaussian elimination"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # squares — TJCTF 2026 (Crypto)

@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Ticketly"
 flag: "bdsec{w4f_byp4ss3d_4dm1n_c00k13_l00t3d}"
 teknik: "WAF blacklist (script/iframe/img/javascript:/onload) dilewati lewat SVG SMIL <animate onbegin>; eksfiltrasi cookie admin bot lewat chunked POST ke webhook"
-sumber: "https://github.com/Abdelkad3r/BDSecCTF-2026"
 ---
 
 # Ticketly — BDSec CTF 2026 (Web, 425 poin)

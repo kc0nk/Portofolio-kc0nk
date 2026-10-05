@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "Tsuki's Rhythm Game"
 flag: "r3ctf{f1n@1Iy-yOU_f1nD_tHE_S3CR3t_6EHiND_rHytHM-4Nd-Tr4c3_them0}"
 teknik: "Rantai 5-tahap: beatmap AES-CBC → bytecode marshal tersembunyi di note type-99 → C2 dengan hh.exe sebagai dictionary → RDP bitmap cache → recovery phrase MetaMask"
-sumber: "https://github.com/Abdelkad3r/R3CTF-2026/tree/master/forensics/tsukis-rhythm-game"
 ---
 
 # Tsuki's Rhythm Game — R3CTF 2026 (Forensics)

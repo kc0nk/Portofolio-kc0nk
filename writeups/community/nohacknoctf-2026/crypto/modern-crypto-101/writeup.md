@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "modern-crypto-101"
 flag: "NHNC{c7r_k3y57r34m5_5h0uld_n3v3r_r37urn}"
 teknik: "Reuse keystream AES-CTR karena nonce konstan; rekonstruksi plaintext guest untuk memulihkan keystream, lalu decode ciphertext admin"
-sumber: "https://github.com/Abdelkad3r/NoHackNoCTF-2026/tree/main/crypto/modern-crypto-101"
 ---
 
 # modern-crypto-101 — NoHackNoCTF 2026 (Crypto)

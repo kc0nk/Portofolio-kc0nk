@@ -4,7 +4,6 @@ kategori: "Forensics (Memory + Network)"
 challenge: "FCP"
 flag: "BtSCTF{more_like_midcp_67}"
 teknik: "Dump memory server Go dengan gcore, temukan RSA private key in-memory lewat pola layout big.Int, lalu dekripsi sesi TLS yang di-resume via EMS PRF"
-sumber: "https://github.com/Abdelkad3r/BreakTheSyntax-ctf-2026/blob/main/FCP.md"
 ---
 
 # FCP — BreakTheSyntax CTF 2026 (Forensics: Memory + Network)

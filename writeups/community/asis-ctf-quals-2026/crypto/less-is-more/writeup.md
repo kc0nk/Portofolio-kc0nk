@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Less is More"
 flag: "ASIS{iZ_1tEr4t10n_5k1p_m4ke5_n0_1nn0c3nT_r3sPonse!!!?}"
 teknik: "Bug iteration-skip 72% menimpa f[target] dengan indikator ronde sebelumnya, membuat satu leaf terungkap SEKALIGUS tertantang; voting 830 hit lintas 5963 record mengunci 7 permutasi code-equivalence"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/LessIsMore"
 ---
 
 # Less is More — ASIS CTF Quals 2026 (Crypto, Hard)

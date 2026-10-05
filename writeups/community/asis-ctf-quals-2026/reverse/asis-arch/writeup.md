@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "ASIS Arch"
 flag: "ASIS{M1ddL3_3nd14n_N1bbL35_M4k3_Q3MU_D122y!}"
 teknik: "VM 16-bit custom; ISA dipulihkan dari relokasi R_X86_64_RELATIVE; instruksi terenkripsi dengan keystream per-alamat; transform cipher branch-free 660-langkah dibalik secara simbolik tanpa brute force"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Reverse/ASISArch"
 ---
 
 # ASIS Arch — ASIS CTF Quals 2026 (Reverse Engineering, Medium)

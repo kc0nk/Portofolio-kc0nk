@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "Headache"
 flag: "ASIS{c0uPleD_n0nL1n3Ar_Dynam!c5_R3c0vEry_v1A_p0l3s_&_l34st_squ4r3s!!}"
 teknik: "PRF softmax-attention tiga-head menyamar sebagai 'Hamiltonian'; oracle float64 tanpa noise diselesaikan dengan Levenberg-Marquardt + Jacobian analitik, dipipeline dan di-restart paralel"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Crypto/Headache"
 ---
 
 # Headache — ASIS CTF Quals 2026 (Crypto, Medium)

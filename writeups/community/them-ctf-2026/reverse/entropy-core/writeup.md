@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "Entropy Core"
 flag: "THEM?!CTF{Entr0py_C0r3_VM_S0_Funny!}"
 teknik: "VM bytecode 64-bit 16-register, 30 opcode; DFS backtracking dengan preferensi ASCII printable untuk menemukan input yang valid"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # Entropy Core — THEM?! CTF 2026 (Reverse Engineering)

@@ -4,7 +4,6 @@ kategori: "Blockchain / DeFi"
 challenge: "Chronostasis"
 flag: "(tidak dipublikasikan di sumber; drain vault sepenuhnya = solved)"
 teknik: "TWAP oracle custom yang _consult-nya berlabuh di observation MANA PUN yang lebih tua dari window; evict observation deploy-time dengan spam 8 update(pair) post-pump di ring buffer, lalu manipulasi vault async-redeem EIP-7540"
-sumber: "https://github.com/Abdelkad3r/SCTF-2026/blob/main/chronostasis/README.md"
 ---
 
 # Chronostasis — SCTF 2026 (Blockchain / DeFi)

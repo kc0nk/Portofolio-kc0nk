@@ -4,7 +4,6 @@ kategori: "Misc / OSINT"
 challenge: "Final Boarding"
 flag: "NHNC{20260505_GK55}"
 teknik: "Foto boarding gate tunggal; EXIF + registrasi pesawat + identifikasi bandara lewat 4 sinyal independen + lookup jadwal penerbangan"
-sumber: "https://github.com/Abdelkad3r/NoHackNoCTF-2026/tree/main/misc/final-boarding"
 ---
 
 # Final Boarding — NoHackNoCTF 2026 (Misc / OSINT)

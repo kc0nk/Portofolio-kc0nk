@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Robots.txt Courtesy"
 flag: "bitflag{r0b0ts_4r3_n0t_4_s3cr3t_v4ult}"
 teknik: "Entri Disallow: di robots.txt mengiklankan path tersembunyi"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/01-web1-robots-txt"
 ---
 
 # Robots.txt Courtesy — RIFFHACK 2026 (Web)

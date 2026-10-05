@@ -4,7 +4,6 @@ kategori: "Reverse Engineering"
 challenge: "financial_report"
 flag: "boroCTF{0n1_F!le_I5_@11_it_tAke$}"
 teknik: "PDF 1 KB dengan object stream berisi JavaScript OpenAction; flag base64 diselipkan di antara operasi aritmetika yang sengaja tidak berguna (decoy)"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # financial_report — boroCTF 2026 (Reverse Engineering)

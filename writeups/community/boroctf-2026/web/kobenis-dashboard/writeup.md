@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "Kobeni's Dashboard"
 flag: "boroCTF{I'v3_n3v3r_been_T0_sch00l_3ithEr}"
 teknik: "ImageMagick 6 dengan policy.xml longgar; ekstensi filename yang dikontrol user memilih input coder, payload MVG label:@/flag.txt merender isi flag (CVE-2016-3714)"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # Kobeni's Dashboard — boroCTF 2026 (Web Exploitation)

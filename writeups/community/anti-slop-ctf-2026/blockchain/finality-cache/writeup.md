@@ -4,7 +4,6 @@ kategori: "Blockchain (Bridge Protocol, bukan EVM)"
 challenge: "Finality Cache"
 flag: "slopped{wrapped_lane_offsets_expose_seal_keys_then_sign_recursive_checkpoints}"
 teknik: "Bridge receipt forge — patch tiga field konsisten (lane varint, header amount, VM commitment), rekomputasi commitment lewat binary guardian sendiri di bawah gdb"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/blockchain"
 ---
 
 # Finality Cache — Anti-Slop CTF 2026 (Blockchain, 447 poin)

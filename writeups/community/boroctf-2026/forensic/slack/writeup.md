@@ -4,7 +4,6 @@ kategori: "Forensics"
 challenge: "slack"
 flag: "boroCTF{C0u!D_yo8_cuT_m3_Som4_sL@ck}"
 teknik: "Image ext4 10 MB berisi 500 file kecil; data penting ada di block slack space; blkls -s mengekstrak dan flag adalah byte non-nol"
-sumber: "https://github.com/Abdelkad3r/boroCTF-2026"
 ---
 
 # slack — boroCTF 2026 (Forensics)

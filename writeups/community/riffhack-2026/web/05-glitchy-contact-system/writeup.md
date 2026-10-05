@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "The Glitchy Contact System"
 flag: "bitflag{d3bug_m0d3_1s_d4ng3r0us}"
 teknik: "Prop RSC sudah ada di HTML sebelum client component-nya throw error dan menampilkan halaman kosong"
-sumber: "https://github.com/Abdelkad3r/RIFFHACK/tree/main/05-web5-glitchy-contact-system"
 ---
 
 # The Glitchy Contact System — RIFFHACK 2026 (Web)

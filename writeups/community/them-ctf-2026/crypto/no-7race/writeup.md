@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "No 7race"
 flag: "THEM?!CTF{NUMB3R_TH30R3M_1S_FUN}"
 teknik: "a << 77777 berakhir dengan sufiks 155-digit → CRT mod 10^155 = 2^155 · 5^155, invers mod 5^155"
-sumber: "https://github.com/Abdelkad3r/themectf-2026"
 ---
 
 # No 7race — THEM?! CTF 2026 (Crypto)

@@ -4,7 +4,6 @@ kategori: "Web"
 challenge: "Another Baby Web!"
 flag: "ASIS{Baby_w3b_cha!!3nGe_$$$}"
 teknik: "Path filter one-pass replace('../','') dilewati '....//' ; content filter bypass lewat Range header; path flag ditemukan dengan membaca plocate.db lewat LFI yang sama"
-sumber: "https://github.com/Abdelkad3r/ASIS-CTF-Quals-2026/tree/main/Web/AnotherBabyWeb"
 ---
 
 # Another Baby Web! — ASIS CTF Quals 2026 (Web, Baby)

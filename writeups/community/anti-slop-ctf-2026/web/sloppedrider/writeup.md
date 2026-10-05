@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "SloppedRider"
 flag: "slopped{riding_0n_M3?}"
 teknik: "SSRF ke ops server loopback yang body-nya dipantulkan balik lewat field sample di respons error, membocorkan HMAC score key untuk memforge ride ticket"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/web"
 ---
 
 # SloppedRider — Anti-Slop CTF 2026 (Web Exploitation)

@@ -4,7 +4,6 @@ kategori: "Crypto"
 challenge: "maas"
 flag: "tjctf{per_mendacium_ad_veritatem}"
 teknik: "Invalid-curve attack — oracle tidak validasi titik ada di kurva; sweep B' untuk kumpulkan residu CRT"
-sumber: "https://github.com/Abdelkad3r/tjctf-2026"
 ---
 
 # maas — TJCTF 2026 (Crypto)

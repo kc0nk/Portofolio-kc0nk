@@ -4,7 +4,6 @@ kategori: "Misc (Hardware/RTL)"
 challenge: "Blinky"
 flag: "r3ctf{seCur3_aNaIy2Ing_p3rFOrmanc3_wOrkflOw4124}"
 teknik: "PAC gate MIPS64r6 dibobol lewat Spectre-style speculative PAC-gated data-load — bad tag membatalkan fault di jalur salah-prediksi, good tag meninggalkan jejak cache; tanpa pernah men-commit satu fault pun"
-sumber: "https://github.com/Abdelkad3r/R3CTF-2026/tree/master/misc/blinky"
 ---
 
 # Blinky — R3CTF 2026 (Misc / Hardware)

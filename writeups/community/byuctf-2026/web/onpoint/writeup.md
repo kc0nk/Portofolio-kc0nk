@@ -4,7 +4,6 @@ kategori: "Web Exploitation"
 challenge: "onpoint"
 flag: "byuctf{I_w4s_sur3_th1s_0ne_w4a_b3tt3r...}"
 teknik: "onfocus tidak ada di blocklist + template literal + location = mengalahkan CSP"
-sumber: "https://github.com/Abdelkad3r/byuctf-2026"
 ---
 
 # onpoint — BYUCTF 2026 (Web Exploitation)

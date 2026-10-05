@@ -4,7 +4,6 @@ kategori: "Pwn (Binary Exploitation)"
 challenge: "Paper Lantern"
 flag: "slopped{faulted_crt_seams_burn_open}"
 teknik: "Bellcore fault attack pada RSA-FDH signer berbasis CRT; satu signature bercacat memfaktorkan modulus lewat gcd(s^e-m, n)=p"
-sumber: "https://github.com/Abdelkad3r/Anti-SlopCTF-2026/tree/main/pwn"
 ---
 
 # Paper Lantern — Anti-Slop CTF 2026 (Pwn)
