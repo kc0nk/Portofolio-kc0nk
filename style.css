@@ -157,5 +157,36 @@
 .cyberleague-event-card{margin-top:16px}.cyberleague-event-card .brunner-card-mark{background:linear-gradient(180deg,#0b1418,#071012)}.cyberleague-challenges{grid-template-columns:repeat(3,minmax(0,1fr))}.cyberleague-challenges .pwnsec-challenge{min-height:210px}
 @media(max-width:980px){.cyberleague-challenges{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.cyberleague-challenges{grid-template-columns:1fr}}
 
-.community-event-card{margin-top:16px}.community-challenges{grid-template-columns:repeat(3,minmax(0,1fr))}.community-challenge{min-height:220px}.community-challenge .badge{display:inline-block}.community-challenge strong{color:#9ab7ad;font-weight:600}
+.community-event-card{margin-top:16px}.community-challenges{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.community-challenge{background:rgba(9,14,18,.72);border:1px solid var(--line);padding:20px;min-height:210px;display:flex;flex-direction:column;transition:.2s ease}.community-challenge .badge{display:inline-block;font-size:9px;letter-spacing:.1em}.community-challenge h4{font-size:17px;line-height:1.35;margin:12px 0 8px}.community-challenge p{color:#819a91;font-size:11px;line-height:1.65;margin:0;flex:1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}.community-challenge p strong{color:#9ab7ad;font-weight:600}.community-challenge a{margin-top:auto;padding-top:18px;color:var(--accent);font-size:9px;letter-spacing:.1em}.community-challenge:hover{transform:translateY(-3px);border-color:rgba(97,247,179,.32);box-shadow:0 14px 36px rgba(0,0,0,.2)}
 @media(max-width:980px){.community-challenges{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:620px){.community-challenges{grid-template-columns:1fr}}
+
+/* Community write-up polish: typography, equations, tables, and metadata */
+.md-content{max-width:940px;margin:0 auto;padding:34px 42px 56px}
+.md-content h1{font-size:clamp(28px,4vw,42px);line-height:1.12;color:#e7f4ee;margin:0 0 24px;letter-spacing:-.03em}
+.md-content h2{font-size:26px;line-height:1.25;border-left:2px solid var(--accent);padding-left:14px;margin-top:42px}
+.md-content h3{font-size:19px;margin-top:30px}
+.md-content p{max-width:82ch}
+.md-content strong{color:#dceee7}
+.md-content a{color:var(--accent);text-decoration:none;border-bottom:1px dotted rgba(97,247,179,.35)}
+.md-content hr{border:0;border-top:1px solid rgba(97,247,179,.13);margin:34px 0}
+.md-content blockquote{margin:22px 0;padding:14px 18px;border-left:2px solid var(--accent);background:rgba(97,247,179,.035);color:#9fbab0}
+.md-content .math-inline{display:inline-block;padding:1px 6px;margin:0 2px;border:1px solid rgba(97,247,179,.14);background:#091116;color:#d5eee4;font-family:'JetBrains Mono',monospace;font-size:.92em;line-height:1.5;border-radius:3px;white-space:nowrap}
+.md-content .formula-window{margin:22px 0 28px;border-color:rgba(97,247,179,.24);box-shadow:0 14px 36px rgba(0,0,0,.2)}
+.md-content .formula-window pre{font-size:13px;line-height:1.8;color:#d1e8df;white-space:pre;tab-size:4}
+.md-content .md-table-wrap{overflow:auto;margin:22px 0 28px;border:1px solid var(--line);background:#080d11}
+.md-content table{width:100%;border-collapse:collapse;min-width:560px;font-size:12px}
+.md-content th{background:#0c1519;color:var(--accent);font:600 10px 'JetBrains Mono',monospace;letter-spacing:.05em;text-transform:uppercase}
+.md-content td,.md-content th{padding:11px 13px;border-bottom:1px solid rgba(97,247,179,.09);vertical-align:top}
+.md-content tr:last-child td{border-bottom:0}
+.md-content code{border-radius:3px}
+.md-content pre code{border-radius:0}
+@media(max-width:720px){.md-content{padding:24px 18px 40px}.md-content h1{font-size:28px}.md-content h2{font-size:23px}.md-content .formula-window pre{font-size:11px}}
+.md-content .formula-card{margin:22px 0 30px;border:1px solid rgba(97,247,179,.18);border-left:3px solid var(--accent);background:linear-gradient(135deg,rgba(97,247,179,.035),rgba(6,13,16,.96));padding:16px 20px 20px;overflow:auto;border-radius:5px}
+.md-content .formula-label{margin-bottom:12px;color:#5e8579;font:600 8px 'JetBrains Mono',monospace;letter-spacing:.16em}
+.md-content .formula-body{color:#d7eae3;font:500 19px/2 'Cambria Math','STIX Two Math','Times New Roman',serif;white-space:nowrap;letter-spacing:.01em;min-width:max-content}
+.md-content .formula-body sup,.md-content .formula-body sub{font-size:.68em;line-height:0}
+.md-content .formula-body .math-break{display:block;height:3px}
+.md-content .formula-body .math-align{display:inline-block;color:#7fb7a5;margin:0 10px}
+.md-content .formula-body .math-text{font-family:Inter,system-ui,sans-serif;font-size:.72em;color:#9bb8ad}
+.md-content .formula-body .math-frac{display:inline-flex;vertical-align:middle;flex-direction:column;text-align:center;line-height:1.05;margin:0 4px}.md-content .formula-body .math-frac span:first-child{border-bottom:1px solid #8aa99e;padding:0 5px 2px}.md-content .formula-body .math-frac span:last-child{padding-top:2px}
+@media(max-width:720px){.md-content .formula-body{font-size:15px}}

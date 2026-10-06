@@ -53,10 +53,19 @@ const highlightCode = (source, lang) => {
   return s;
 };
 
-const inlineMd = (str) => escapeHtml(str)
-  .replace(/`([^`]+)`/g, '<code>$1</code>')
-  .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-  .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+const inlineMd = (str) => {
+  const placeholders = [];
+  const stash = (html) => { const key = `\u0000M${placeholders.length}\u0000`; placeholders.push(html); return key; };
+  let source = String(str);
+  // Inline math: $...$, \( ... \), and \[ ... \] written on one line.
+  source = source.replace(/\\\((.+?)\\\)/g, (_, m) => stash(`<span class=\"math-inline\">${escapeHtml(m.trim())}</span>`));
+  source = source.replace(/\$([^$\n]+)\$/g, (_, m) => stash(`<span class=\"math-inline\">${escapeHtml(m.trim())}</span>`));
+  source = escapeHtml(source)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  return source.replace(/\u0000M(\d+)\u0000/g, (_, i) => placeholders[Number(i)]);
+};
 
 function codeWindow(source, lang) {
   const lines = source.split('\n');
@@ -69,16 +78,33 @@ function codeWindow(source, lang) {
   </div>`;
 }
 
+function formulaText(source) {
+  let s = escapeHtml(source.trim());
+  s = s.replace(/\\/g, '<span class="math-break"></span>');
+  s = s.replace(/&amp;/g, '<span class="math-align">&</span>');
+  s = s.replace(/\\left|\\right/g, '');
+  s = s.replace(/\\times/g, '×').replace(/\\cdot/g, '·').replace(/\\pm/g, '±')
+    .replace(/\\leq|\\le/g, '≤').replace(/\\geq|\\ge/g, '≥').replace(/\\neq/g, '≠')
+    .replace(/\\equiv/g, '≡').replace(/\\in/g, '∈').replace(/\\rightarrow|\\to/g, '→')
+    .replace(/\\infty/g, '∞').replace(/\\sum/g, 'Σ').replace(/\\prod/g, 'Π')
+    .replace(/\\lambda/g, 'λ').replace(/\\alpha/g, 'α').replace(/\\beta/g, 'β')
+    .replace(/\\gamma/g, 'γ').replace(/\\delta/g, 'δ').replace(/\\epsilon/g, 'ε')
+    .replace(/\\phi/g, 'φ').replace(/\\omega/g, 'ω').replace(/\\pi/g, 'π');
+  s = s.replace(/\\text\{([^{}]*)\}/g, '<span class="math-text">$1</span>');
+  s = s.replace(/\\mathrm\{([^{}]*)\}/g, '<span class="math-text">$1</span>');
+  s = s.replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, '<span class="math-frac"><span>$1</span><span>$2</span></span>');
+  s = s.replace(/\^\{([^{}]+)\}/g, '<sup>$1</sup>').replace(/\^([A-Za-z0-9])/g, '<sup>$1</sup>');
+  s = s.replace(/_\{([^{}]+)\}/g, '<sub>$1</sub>').replace(/_([A-Za-z0-9])/g, '<sub>$1</sub>');
+  s = s.replace(/\{([^{}]+)\}/g, '$1');
+  return s;
+}
+
 function formulaBlock(source) {
-  const safe = escapeHtml(source.trim());
-  const lines = source.trim().split('\n');
-  const nums = lines.map((_, i) => `<span>${i + 1}</span>`).join('');
-  const body = safe.replace(/\b(mod|det|gcd|rank|trace)\b/g, '<span class="tok-function">$1</span>')
-    .replace(/(≡|≤|≥|=|\+|-|\*|\/|\^|\||·|∈)/g, '<span class="tok-operator">$1</span>');
-  return `<div class="code-window formula-window" data-lang="MATH / CONSTRAINT">
-    <div class="code-window-bar"><span class="code-dot red"></span><span class="code-dot yellow"></span><span class="code-dot green"></span><span class="code-lang">MATH / CONSTRAINT</span></div>
-    <div class="code-window-body"><div class="code-line-numbers">${nums}</div><pre><code>${body}</code></pre></div>
-    <div class="code-window-scroll"><span></span></div>
+  const raw = source.trim();
+  const body = formulaText(raw);
+  return `<div class="formula-card">
+    <div class="formula-label">MATH / FORMULA</div>
+    <div class="formula-body">${body}</div>
   </div>`;
 }
 
@@ -94,7 +120,10 @@ function flagWindow(flag) {
 }
 
 function markdownToHtml(md) {
-  const lines = md.replace(/\r/g, '').split('\n');
+  let normalized = md.replace(/\r/g, '');
+  // YAML frontmatter is metadata for the archive, not body content.
+  normalized = normalized.replace(/^---\n[\s\S]*?\n---\n?/, '');
+  const lines = normalized.split('\n');
   let html = '';
   let inCode = false, codeLang = '', code = [];
   let inMath = false, math = [];
@@ -186,18 +215,23 @@ function markdownToHtml(md) {
 
     // Display math blocks as editor-style math snapshots.
     if (inMath) {
-      if (trimmed === '$$' || trimmed === '\\]') {
+      if (trimmed === '$$' || trimmed === '\\]' || /^\\end\{(?:aligned|align\*?|gathered|cases|matrix|pmatrix|bmatrix)\}/.test(trimmed)) {
+        if (/^\\end\{/.test(trimmed)) math.push(line);
         closeMath();
       } else {
         math.push(line);
       }
       continue;
     }
-    if (trimmed === '$$' || trimmed === '\\[') {
+    if (trimmed === '$$' || trimmed === '\\[' || /^\\begin\{(?:aligned|align\*?|gathered|cases|matrix|pmatrix|bmatrix)\}/.test(trimmed)) {
       closeList();
       closeQuote();
       inMath = true;
       math = [];
+      if (!/^\\begin\{/.test(trimmed)) {
+        continue;
+      }
+      math.push(line);
       continue;
     }
 
